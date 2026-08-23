@@ -1,0 +1,1909 @@
+   Chapter 6
+
+Relativity
+
+LEARNING OBJECTIVES
+
+In this chapter you will learn how to:
+
+     understand the meaning and use of the terms reference frame and inertial reference frame
+
+     explore Galilean relativity and its transformation equations for position, time and velocity
+
+     understand Einstein’s two postulates of special relativity
+
+     see how the postulates of special relativity lead to the Lorentz transformation equations for
+
+     the same event from the point of view of two reference frames
+
+     use the Lorentz transformation for relativistic velocity addition
+
+     understand that the spacetime interval between two events is an invariant quantity
+
+     use the terms proper time interval and proper length
+
+     solve problems involving time dilation and length contraction
+
+     explore relativistic simultaneity
+
+     use spacetime diagrams (sometimes called Minkowski diagrams)
+
+     understand how muon decay experiments provide evidence for time dilation and length contraction
+GUIDING QUESTIONS
+
+What are the consequences of the constancy of the speed of light on our understanding of space and
+time?
+Introduction
+This chapter deals with the kinematic parts of the theory of special relativity introduced by Einstein in 1905. As
+we will see, the theory has revolutionised our traditional concepts of space and time; it leads to unexpected
+phenomena such as length contraction and time dilation, and it introduces the speed of light as the ultimate
+limiting speed for all material objects.
+
+We will discuss the two main effects of the theory of relativity—time dilation and length contraction – and will
+see how muon decay experiments provided the early experimental support for the theory.
+
+We also introduce a pictorial representation of relativistic phenomena that makes the concepts of time
+dilation, length contraction and simultaneity particularly transparent.
+6.1 Reference frames and Lorentz transformations
+In physics experiments, we (the observers) record the time and position at which events take place. To do that,
+we use a reference frame. A reference frame is a set of co-ordinate axes and a set of clocks at every point in
+space. If this set is not accelerating, the frame is called an inertial reference frame (see Figure 6.1).
+
+
+
+
+Figure 6.1: A two-dimensional reference frame. There are clocks at every point in space (only a few are shown
+here). All clocks are synchronised to show the same time.
+
+
+  CHECK YOURSELF 1
+
+  Which reference frames in this list are inertial frames?
+  a   A sky diver falling freely
+
+  b   A sky diver falling at terminal velocity
+
+  c   A train moving with constant speed on a straight line
+
+  d   A plane taking off
+
+  e   The earth as it rotates around the sun
+
+If the event is a strike of a lightning, an observer will look at the reading of the clock at the point where
+lightning struck and record that reading as the time of the event. The co-ordinates of the strike point give the
+position of the event in space. In Figure 6.2, lightning strikes at time t = 3 s at position x = 60 m and y = 0. (We
+are ignoring the z co-ordinate.)
+
+
+
+
+Figure 6.2: In this frame of reference the observer measures that lightning struck at time t = 3 s at position x
+= 60 m.
+The same event can also be viewed by another observer in a different reference frame. So, consider a situation
+involving one observer on the ground and another who is a passenger on a train travelling at a velocity of v =
+15 m s−1 relative to the ground observer, as shown in Figure 6.3.
+
+
+
+
+Figure 6.3: The origins of the two frames of reference coincide when clocks in both frames show zero. The
+origins then separate.
+
+We can see things more clearly if we concentrate on the rulers (in metres) used by the ground and train
+observers. In Figure 6.4 we see the two rulers on top of each other. This happens at time zero.
+
+
+
+
+Figure 6.4: The situation at time zero.
+
+The train moves and its ruler moves along with it. Lightning strikes at the point shown (Figure 6.5). The ground
+and train observers assign different co-ordinates to this event.
+
+
+
+
+Figure 6.5: The situation at time 3 s. Clearly, vt + x′ = x so that x′ = x − vt.
+
+The ground observer uses the symbol x to denote the position of an event. The observer on the train uses the
+symbol x′. As shown in Figures 6.3 and 6.5, these are related by:
+
+x' = x − vt
+
+
+
+since in the time of t seconds the train moves forward a distance vt. The equation expresses the relationship
+between the space co-ordinates of the same event as viewed by two observers who are in relative motion. In
+pre-relativity physics, time was absolute; that is, all observers make the same measurements for time, so t′ = t.
+
+  KEY POINTS
+
+  The equations x′ = x − vt and t′ = t are two of the Galilean transformation equations
+
+Thus, to the event of Figures 6.3 and 6.5 (‘lightning strikes’) the ground observer assigns the co-ordinates x =
+60 m and t = 3 s. The observer in the train assigns to this same event the co-ordinates t′ = 3 s and x′ = 60 − 15
+× 3 = 15 m.
+We are assuming here what we know from everyday experience (a guide that, as we will see, may not always
+be reliable):
+
+Two observers always agree on what the time co-ordinates are; in other words, time is common to both
+observers.
+
+Figure 6.6 shows Galileo Galilei in an oil painting by Justus Sustermans that can be seen in the Uffizi Gallery in
+Florence.
+
+
+
+
+Figure 6.6: Galileo Galilei (1564–1642).
+
+Galilean relativity has an immediate consequence for the law of addition of velocities: consider a ball that rolls
+on the train floor. The train moves at 20 m s−1. At time zero the ball is at the origin of the train frame, as shown
+in Figure 6.7.
+
+
+
+
+Figure 6.7: At time zero the ball is at the origin of the train frame. Its position is given by x = x′ = 0.
+
+Two seconds later, the train has moved forward a distance of 40 m. During this time the ball has rolled on the
+train floor a distance of 20 m, as shown in Figure 6.8. So the velocity of the ball for the train observer is
+20
+     = 10 m s    .
+                −1
+
+ 2
+
+
+
+
+Figure 6.8: Two seconds later the ball has moved a distance of 20 m along the train floor. The train moved
+forward a distance of 40 m according to the ground.
+The ground observer measures that the ball moved a distance of 60 m in 2 s, and for the ground observer the
+ball’s velocity is:
+60
+                 −1
+      = 30 m s
+ 2
+
+
+
+Notice that 30 m s−1 = 20 m s−1 + 10 m s−1.
+
+In general, if the train observer measures a velocity u′ for the ball, the ground observer will measure a velocity
+u = u′ + v, where v is the velocity of the train.
+
+The equation u = u′ + v or u′ = u − v is the final Galilean transformation equation.
+
+  CHECK YOURSELF 2
+
+  A bird flies due south at 4 m s−1. A glider flies due north at 5 m s−1.
+
+  What is the velocity of the bird relative to the glider?
+
+
+  WORKED EXAMPLE 6.1
+
+  A ball rolls on the floor of a train at 2 m s−1 towards the right (with respect to the floor). The train moves
+  with respect to the ground:
+
+  a     to the right at 12 m s−1
+
+  b     to the left at 12 m s−1.
+
+  What is the velocity of the ball relative to the ground?
+
+  Answer
+
+  a     u = u
+                ′
+                    + v = 2 + 12 = 14 m s
+                                            −1
+                                                 .
+
+  b     u = u
+                ′
+                    + v = 2 − 12 = −10 m s
+                                             −1
+                                                     .
+
+
+The (apparently correct) argument in the answer to worked example 6.1 presents problems if we replace the
+rolling ball in the train by a beam of light moving with velocity c = 3 × 108 m s−1 as measured by the train
+observer (see Figure 6.9).
+
+Using the Galilean velocity addition formula implies that light would be travelling at a higher speed relative to
+the ground observer. At the end of the nineteenth century, considerable efforts were made to detect
+variations in the speed of light depending on the state of motion of the source of light. The experimental
+result was that no such variations were detected.
+Figure 6.9: An observer in the train measures the speed of light to be c. An observer on the ground would
+then measure a higher speed, c + v.
+
+Einstein had solid theoretical reasons (based on Maxwell’s theory of electromagnetism) to believe that the
+speed of light should be the same for all inertial observers. It should not depend on the speed of its source.
+So, either Galileo’s velocity formula was wrong or Maxwell was wrong. Einstein trusted Maxwell. Doing so
+meant that the equations of Galilean relativity had to be revised.
+
+The postulates of special relativity
+Einstein (Figure 6.10) based his theory of relativity on two postulates. The first was the old postulate of Galileo
+which Einstein extended to all laws of physics, not just mechanics:
+
+  KEY POINTS
+
+  All the laws of physics are the same in all inertial frames.
+
+
+The second was new:
+
+  KEY POINTS
+
+  The speed of light in vacuum is the same for all inertial observers.
+
+
+
+
+Figure 6.10: Albert Einstein (1879–1955).
+
+
+  THEORY OF KNOWLEDGE
+
+  Einstein was so convinced of the constancy of the speed of light that he elevated it to one of the principles
+  of relativity. But it was not until 1964 that conclusive experimental verification of this took place. In this
+  experiment, at CERN, neutral pions moving at 0.99975c decayed into a pair of photons moving in different
+  directions. The speed of the photons in both directions was measured to be c with extraordinary accuracy.
+  The speed of light does not depend on the speed of its source. The theory of relativity has modified our
+  fundamental ideas about space and time, ideas that went unchallenged for over two thousand years.
+  Accepting the new ideas was not easy; the beauty of the theory of relativity lies in the amazingly simple
+  postulates upon which it is based. It is interesting that at the time of the formulation of the theory little
+  experimental evidence for the postulates was available. Yet, despite the simplicity of the postulates, their
+  consequences are far reaching and have revolutionised physics.
+
+These two postulates of relativity have far-reaching consequences. Einstein showed, in 1905, that, following
+from his two postulates, the correct equations relating measurements in the two frames are:
+
+ Galileo                    Einstein
+
+ x′ = x − vt                x′ = γ(x − vt)                                      x = γ(x′ + vt′)
+
+ t′ = t                         ′
+                                               v
+                                                                                           ′
+                                                                                                   v
+                                                                                                            ′
+                            t       = γ (t −           x)                       t = γ (t       +           x )
+                                                   2                                                   2
+                                               c                                                   c
+
+
+
+where the factor γ is called the gamma factor and equals γ =          1
+                                                                                .
+                                                                           v2
+                                                                    √ 1−
+                                                                           c2
+
+
+
+
+The first column under Einstein gives x′ and t′ in terms of x and t, and the second gives x and t in terms of x′
+and t′.
+
+In 1890 the Dutch physicist H. Lorentz also derived these equations by demanding that the laws of
+electromagnetism should be the same in all inertial frames, and so these are known as Lorentz transformations.
+Einstein re-derived them from more general principles 15 years later. Notice right away that if v is very small
+                                                 v
+compared to the speed of light, then γ ≈ 1 and      is negligibly small, and so the Lorentz equations reduce to
+                                                                2
+                                                            c
+
+the Galilean equations! In other words the effects of relativity become important only at speeds close to that
+of light. Notice also that these equations become meaningless for speeds equal to or greater than that of
+light. This is a sign that no material body can reach or exceed the speed of light.
+
+These equations may be used to relate the co-ordinates of a single event in one inertial frame with those in
+another. We will denote with S some inertial frame. A frame that moves with speed v to the right relative to S
+will be called frame S′. These equations assume that when clocks in both frames show zero (i.e. t = t′ = 0) the
+origins of the two frames coincide, i.e. x = x′ = 0.
+
+Note that γ > 1. A graph of the gamma factor against speed is shown in Figure 6.11. We see that the gamma
+factor is approximately 1 for velocities up to about half the speed of light but approaches infinity as the speed
+approaches the speed of light.
+
+
+
+
+Figure 6.11: The gamma factor as a function of velocity. The value of γ stays essentially close to 1 for values of
+the velocity up to about half the speed of light but approaches infinity as the velocity approaches the speed of
+light.
+
+
+  CHECK YOURSELF 3
+You are on an island watching the mainland some 20 km away. The instant you see light from the
+headlights of a car on the mainland the clock strikes midnight. Is the time co-ordinate of the event ‘light is
+emitted from the headlights’ 12 o’clock midnight?
+
+
+WORKED EXAMPLE 6.2
+
+Note: Unless stated otherwise, when clocks in both frames show zero, the origins of the two frames
+coincide.
+
+Lightning strikes a point on the ground (frame S) at position x = 3500 m and time t = 5.0 s. Determine
+where and when the lightning struck according to a rocket that flies past the ground at speed 0.80 c to
+the right.
+
+Answer
+This is a straightforward application of the Lorentz formulas (the gamma factor is
+                     1                   5
+γ =
+              − −−− −−−
+                                     =       ):
+             √ 1 − 0.802                 3
+
+
+        ′
+x           = γ(x − vt)
+
+                5
+                                                  8
+            =       (3500 − 0.80 × 3 × 10             × 5.0)
+                3
+                                 9
+            = −2.0 × 10              m
+
+
+
+and
+                         vx
+    ′
+t           = γ (t −             )
+                             2
+                         c
+
+
+                                                  8
+                5⎛      0.80 × 3 × 10 × 3500 ⎞
+            =     5.0 −
+                3⎝                     2
+                                     8       ⎠
+                              (3 × 10 )
+
+            = 8.3 s
+
+
+The observers disagree on the co-ordinates of the event ‘lightning strikes’, but both are correct.
+
+However, notice that in S the quantity c2 t2 − x2 is equal to (3 × 108 × 5.0)2 − 35002 = 2.25 × 1018 m2. In
+the rocket frame c2 t′ 2 − x′2 is equal to (3 × 108 × 8.3)2 − (−2.0 × 109)2 = 2.25 × 1018 m2 which is the
+same value as that in S. So both observers agree that this combination of time and space co-ordinates is
+the same in both frames. We will understand this in the next section.
+
+
+WORKED EXAMPLE 6.3
+
+A rocket is moving at 0.80c past a space station (Figure 6.12).
+a            Where is the rocket according to the space station when the rocket clock shows 0.60 µs?
+
+b            What does the space station clock read at this position?
+
+
+
+
+             Figure 6.12: For worked example 6.3.
+
+Answer
+  a        We examine the event E = rocket clock shows 0.60 µs. For this event x′ = 0 and t′ = 0.60 µs in the
+           rocket frame.
+           Hence, from the Lorentz formula:
+                                  ′               ′
+            x   = γ (x                + vt )
+
+                         5
+                                                                 8                         −6
+                =            (0 + 0.80 × 3 × 10                      × 0.60 × 10                )
+                         3
+
+                = 240 m
+
+
+  b         t   = γ (t
+                              ′
+                                      +
+                                          vx
+                                                      )
+                                              2
+                                          c
+
+                     5
+                                                      6
+                =        (0.60 × 10                       + 0)
+                     3
+
+                = 1.0 μs
+
+
+
+  (The quantity c2 t2 − x2 in S is equal to (3 × 108 × 1.0 × 10−6)2 − 2402 = 32 400 m2. In the rocket frame c2
+  t′2 − x′2 is equal to (3 × 108 × 0.60 × 10−6)2 − 02 = 32 400 m2.)
+
+
+  EXAM TIP
+
+  It is important that you can use the Lorentz equations to go from frame S to frame S′ as well as from S′ to
+  S.
+
+Sometimes we will be interested in the difference in co-ordinates of a pair of events. So for events 1 and 2 we
+define Δx = x − x and Δt = t − t in S′ and Δx = x − x and Δt = t − t in S.
+                 ′            ′
+                              2
+                                              ′
+                                              1
+                                                             ′       ′
+                                                                     2
+                                                                                 ′
+                                                                                 1                  2   1   2   1
+
+
+
+
+These differences are related by
+
+                                                                             v
+      ′                                               ′
+Δx        = γ(Δx − vΔt); Δt                               = γ (Δt −                  Δx)
+                                                                             2
+                                                                         c
+
+
+or, in reverse,
+                                                                                 v
+                     ′                    ′                          ′                 ′
+Δx = γ (Δx               + vΔt ) ; Δt = γ (Δt                            +           Δx )
+                                                                                 2
+                                                                             c
+
+
+
+
+  WORKED EXAMPLE 6.4
+
+  Consider a rocket that moves relative to a laboratory with speed v = 0.80 c to the right, as shown in
+  Figure 6.13. We call the inertial frame of the lab S and that of the rocket S′. The length of the rocket as
+  measured by the rocket observers is 630 m. A photon is emitted from the back of the rocket towards
+  the front. Calculate the time taken for the photon to reach the front end of the rocket according to
+  observers in the rocket and in the laboratory.
+
+
+
+
+  Figure 6.13: For worked example 6.4.
+  Answer
+  Event 1 is the emission of the photon. Event 2 is the arrival of the photon at the front of the rocket:
+
+  Δx′ = x′arrival − x′emission = 630 m
+
+  This distance is covered at the speed of light, and so the time between emission and arrival (in S′) is
+                     630
+         ′
+  Δt         =               = 2.1 μs
+                         c
+
+
+  In frame S we use
+                     5
+                                                                       −6
+  Δx =                   (630 + 0.80c × 2.1 × 10                               ) = 1890 m
+                     3
+
+
+                     5                            0.80c × 630
+                                     −6
+  Δt =                   (2.1 × 10        +                                    ) = 6.3 μs
+                     3                                         2
+                                                           c
+
+
+
+
+The spacetime interval
+We have seen that observers in different inertial frames assign different space and time co-ordinates to the
+same events. For example, frame S assigns (Δx, Δt) for the difference in co-ordinates of two events and S′
+assigns (Δx′, Δt′). These are related by Lorentz transformations. Interestingly, however, there is a quantity that
+both observers will agree on as we have already indicated. This is called the spacetime interval. It is given by
+(Δs)2 = (cΔt)2 − (Δx)2 in S. In S′ the spacetime interval is (Δs′)2 = (cΔt′)2 − (Δx′)2 and it has the same value as in S
+(this is left as an exercise in algebra for you). In other words
+
+(cΔt)
+             2
+                 − (Δx)
+                             2
+                                  = (cΔt )
+                                              ′   2
+                                                      − (Δx )
+                                                                   ′   2
+                                                                           .
+
+In practice this means that if we know three of the quantities Δt, Δx, Δt′, Δx′ we can find the fourth from the
+spacetime interval. Consider an observer X at the origin of a frame S′ that moves past a frame S with speed of
+0.80c. An observer in S measures that X turns on a light at t = 0 and turns it off at t = 4.0 s. For how long was
+the light on according to S′?
+
+We know that Δt = 4.0 s, Δx = 0.80c × 4.0 = 9.6 × 108 m, Δx′ = 0. Hence
+             2               2                ′   2                ′   2
+(cΔt)            − (Δx)           = (cΔt )            − (Δx )
+
+
+                              2                            2                        2
+                 8                                     8                        ′             2
+(3 × 10              × 4.0)       − (9.6 × 10 )                = (cΔt )                 − 0
+
+
+
+Hence Δt′ = 2.4 s.
+
+Of course we could get the answer with a Lorentz transformation as well:
+
+                 5                   0.80c
+Δt
+     ′
+         =           × (4.0 −                         × 0.80c × 4.0) = 2.4 s                      .
+                 3                        2
+                                      c
+
+
+
+
+  CHECK YOURSELF 4
+
+  A photon travels from A to B on a straight line. What is the spacetime interval for these points?
+
+
+  THEORY OF KNOWLEDGE
+
+  Note that there is no question as to which observer is right and which is wrong when it comes to
+  measuring time intervals. Both are right. Two inertial observers moving relative to each other at constant
+  velocity both reach valid conclusions according to the principle of relativity.
+
+
+  TEST YOUR UNDERSTANDING
+1   Give two reasons why the ground on which you stand is not an inertial reference frame. Under what
+    approximation is it an inertial frame?
+
+2   Imagine that you are travelling in a train at constant speed in a straight line and that you cannot look
+    at or communicate with the outside. Think of the first experiment that comes to your mind that you
+    could do to try to find out that you are indeed moving. Then analyse it carefully to see why it will not
+    work.
+
+3   Outline an experiment you might perform in a train that is accelerating along a straight line that
+    would convince you that it is accelerating. Discuss if you could also determine the direction of the
+    acceleration.
+
+4   An inertial frame of reference S′ moves past another inertial frame S moving to the right with speed
+    15 m s–1. At time zero the origins of the two frames coincide.
+    a    A phone rings at location x = 20 m and t = 5.0 s. Determine using Galilean transformation
+         equations the location of this event in the S′ frame.
+
+    b    A ball is measured to have velocity 5.0 m s–1 in frame S′. Calculate the velocity of the ball in frame
+         S.
+
+5   An inertial frame of reference S′ moves past another inertial frame S moving to the left with speed 25
+    m s–1. At time zero the origins of the two frames coincide.
+    a    A phone rings at location x′ = 24 m and t = 5.0 s. Determine using Galilean transformation
+         equations the location of this event in the S frame.
+
+    b    A ball is measured to have velocity –15 m s–1 in frame S. Calculate the velocity of the ball in frame
+         S′.
+
+6   A rocket moving at speed 0.80c relative to the ground emits a light signal in the direction of the
+    velocity. What is the speed of the light signal relative to the ground according to Galileo?
+    In the following questions the frames S and S′ have their usual meaning, i.e. S′ moves past S with
+    velocity v, and when the origins coincide clocks are set to zero. You are expected to use relativistic
+    equations for these questions.
+
+7   a    Calculate the gamma factor for a speed of 0.850c and a velocity of –0.850c.
+    b    Calculate the speed that gives a gamma factor of 4.00.
+
+    c    Is there a speed that gives a gamma factor of 0.50?
+
+8   In frame S an event E has co-ordinates (x = 600 m, t = 2.0 μs). Frame S′ is moving at speed 0.75c in the
+    positive direction. Determine the co-ordinates of E in S′.
+
+9   An event E has co-ordinates (x′ = 520 m, t′ = 4.0 μs) in a frame S′ that moves with velocity 0.60c
+    relative to frame S. Determine the co-ordinates of E in S.
+
+10 Frame S′ moves with velocity 0.98c relative to S. An explosion occurs at the origin of frame S′ when the
+   clocks in S′read 6.0 μs. Calculate where and when the explosion takes place according to frame S.
+
+11 Frame S′ moves with velocity 0.60c relative to S. Calculate the reading of the clocks in frame S′ as the
+   origin of S′ passes point x = 120 m.
+
+12 Two events in frame S are such that Δx = x2 − x1 = 1200 m and Δt = t2 − t1 = 6.00 μs.
+
+    a    Frame S′moves with velocity 0.600c relative to S. Calculate Δx′ = x′2 − x′1 and Δt′ = t′2 − t′1.
+
+    b    Determine if there is another frame S″ such that in this frame Δt″ = 0. Comment on your answer.
+
+13 A rocket moving at 0.80c leaves earth towards a planet that is a distance of 24 ly from earth as
+   measured in the earth’s frame. By considering the events E1 = rocket leaves earth and E2 = rocket
+    arrives at the planet, calculate the time it takes to get to the planet according to the rocket. (ly stands
+    for ‘light year’; it is the distance travelled by light in one year. 1 ly = c × year.)
+
+14 A rocket travelling at 0.60c with respect to earth leaves earth towards a planet. After 4.0 years (as
+   measured by the rocket clocks) a radio message is sent to earth. Calculate when it will arrive on earth
+   as measured by:
+    a    observers on earth
+
+    b    observers on the rocket.
+
+15 In frame S event E(arly) occurs before event L(ate). The events are separated by a time interval Δt = tL
+    – tE and a space interval Δx = xL – xE.
+
+                                                                        Δx
+    a    If E is the event that causes event L to happen, explain why        ≤ c   .
+                                                                        Δt
+
+
+    b    Is there a frame in which L occurs before E?
+6.2 Effects of relativity
+
+Time dilation
+Suppose that an observer in a frame S′ that moves relative to a frame S measures the time in between
+successive ticks of a clock. The clock is at rest in S′ and so the measurement of the ticks occurs at the same
+place, Δx′ = 0. The result of the measurement is Δt′. The observer in S will measure a time interval equal to
+                                          ′
+                                 vΔx
+                     ′
+Δt   = γ (Δt             +                    )
+                                      2
+                                  c
+                 ′
+     = γ (Δt         + 0)
+
+             ′
+Δt   = γΔt
+
+
+
+This shows that the interval between the ticks of a clock that moves relative to the observer in S is greater than
+the interval measured in S′where the clock is at rest. This is known as time dilation. In this case, the time
+measured by S′ is special because it represents a time interval between two events that happened at the same
+point in space. The clock is at rest in S′ so its ticks happen at the same point in S′. Such a time interval is called
+proper time interval. (This is just a name; it is not implied that this is a more ‘correct’ measurement of time).
+
+  KEY POINTS
+
+  A proper time interval is the time between two events that take place at the same point in space.
+
+The time dilation formula is best remembered as
+
+time interval                = γ × proper time interval
+
+                                              1
+                             =                                 × proper time interval
+                                          −−−−−−
+                                                       2
+                                                   v
+                                 √1 −
+                                                       2
+                                                   c
+
+
+
+
+  WORKED EXAMPLE 6.5
+
+  The time interval between the ticks of a clock carried on a fast rocket is half of what observers on Earth
+  record. Calculate the speed of the rocket relative to earth.
+
+  Answer
+  The rocket observers measure the proper time interval since the events ‘first tick’ and ‘second tick’ occur
+  at the same place in the rocket frame. From the time dilation formula it follows that
+                                               −−−−−−
+                                                                   2
+             1                                                 v           1
+  2 =                            ⇒ √1 −                                =
+         −−−−−−                                                    2
+                             2                                 c           2
+                         v
+        √1 −
+                             2
+                         c
+
+                                                           2
+                                                   v                   1
+                                 ⇒ 1 −                         =
+                                                       2
+                                                   c                   4
+
+                                               2
+                                           v                   3
+                                 ⇒                 =
+                                               2
+                                           c                   4
+
+                                 ⇒ v = 0.866c
+
+
+
+
+  WORKED EXAMPLE 6.6
+
+  A rocket moves past an observer in a laboratory with speed v = 0.85c. The observer in the laboratory
+  measures that a radioactive isotope (which is at rest in the laboratory) has a half-life of 2.0 min.
+  Calculate the half-life measured by the rocket observers.
+
+  Answer
+  We have two events here. The first is that the laboratory observer sees a container with a given mass of
+  the radioactive isotope. The second event is that the laboratory observer sees a container with half the
+  mass of the radioactive isotope. These events are separated by 2.0 min as far as the laboratory observer
+  is concerned. These two events take place at the same point in space as far as the laboratory observer is
+  concerned, and so the laboratory observer has measured the proper time interval between these two
+  events. Hence the rocket observers will measure a longer half-life of time interval = γ × proper time
+  interval
+               1
+  =                     × 2.0 min
+        − −−− −−−
+       √ 1 − 0.852
+
+  = 3.80 min
+
+
+
+  The point of this example is that you must not make the mistake of thinking that proper time intervals
+  are measured by ‘the moving’ observer. There is no such thing as ‘the moving’ observer: the rocket
+  observer is free to consider themself at rest and the laboratory observer moving with velocity v =
+  −0.85c.
+
+
+  SCIENCE IN CONTEXT
+
+  The Global Positioning System (GPS) depends on precisely measuring signals from satellites which move at
+  speeds of about 4 km s−1. This is a small speed compared to the speed of light. The gamma factor for this
+  speed is greater than 1 by approximately 9 × 10−11. In one day there are 86 400 s, so if relativity is not
+  taken into account we would have an error of about 9 × 10−11 × 86 400 ≈ 8 μs in clocks after one day. For
+  signals travelling at the speed of light this would imply an uncertainty in position of about 8 × 10−6 × 3 ×
+  108 = 2400 m. This would make the GPS worthless. (GPS also uses corrections from general relativity.)
+
+
+Length contraction
+Now consider a rod that is at rest in frame S′. An observer in S′ measures the position of the ends of the rod,
+subtracts and finds a length Δx′ = L0. (Notice that since the rod is at rest, the measurement of the position of
+the ends can be done at different times—the rod is not going anywhere. But for the observer in S the rod is
+moving. So to measure its length the observer must record the position of the ends of the rod at the same
+time, i.e. with Δt = 0. Since Δx′ = γ(Δx − vΔt) where Δx = L is the length in S, we obtain that
+
+  EXAM TIP
+
+  Note that it is only lengths in the direction of motion that are contracted.
+
+L0    = γ(L − 0)
+
+          L0
+ L    =
+          γ
+
+
+This shows that the rod, which moves relative to the observer in S, has a shorter length in S than the length
+measured S′where the rod is at rest. This is known as length contraction. A reference frame in which an
+object is at rest is called that object’s rest frame.
+
+  KEY POINTS
+
+  The length Δx′ = L0 is special because it is measured in a frame of reference where the rod is a rest. Such a
+  length is called a proper length.
+
+The length of an object measured by an inertial observer with respect to whom the object is at rest is called
+proper length. Observers with respect to whom the rod moves at speed v measure a shorter length:
+               proper length
+length =
+                    γ
+ WORKED EXAMPLE 6.7
+
+ An unmanned spacecraft leaves earth with speed 0.80c towards a planet that is 40 ly away as measured
+ by earth observers. How long will the trip take according to:
+ a      earth clocks
+
+ b      spacecraft clocks?
+
+ Answer
+
+ a      According to earth the time is simply
+           40 ly                  c × year
+                          = 50               = 50 yr   .
+           0.80c                     c
+
+
+ b      Leaving earth and arriving at the planet occurs at the same point according to the spacecraft so the
+                                                                                            50       50
+        spacecraft measures a proper time interval for the trip. Hence it takes a time of        =        = 30 yr   .
+                                                                                            γ         5
+
+                                                                                                      3
+
+
+
+
+ Equivalently we can argue that the spacecraft is at rest and the planet is coming towards the spacecraft
+                                                                                            40       40
+ at speed 0.80c. The distance between earth and planet is then length contracted to              =        = 24 ly
+                                                                                            γ        5
+
+                                                                                                     3
+                                                                      24 ly
+ and so ‘the planet will come to the spacecraft’ in a time of                       .
+                                                                              = 30 yr
+                                                                      0.80c
+
+
+
+
+ THEORY OF KNOWLEDGE
+
+ The time dilation effect described is a ‘real’ effect. In the Hafele–Keating experiment, accurate atomic
+ clocks taken for a ride aboard planes moving at ordinary speeds and then compared with similar clocks
+ left behind show readings that are smaller by amounts consistent with the formulae of relativity. Time
+ dilation is also a daily effect in the operation of particle accelerators. In such machines, particles are
+ accelerated to speeds that are very close to the speed of light, and thus relativistic effects must be taken
+ into account when designing these machines. The time dilation formula has also been verified in muon
+ decay experiments.
+
+
+Addition of velocities
+Consider a frame S′ that moves at constant speed v in a straight line relative to another frame S. Observers in
+both frames measure the velocity of an object. Observers in S′ measure the velocity to be u′. Observers in S
+measure the velocity of the same object to be u. How are u and u′related? We saw that the Galilean answer (u
+= uʹ + v) cannot be correct. Einstein showed that the Lorentz equations lead to the following answer:
+            ′
+        u
+                          or, solving for uʹ, u =
+                + v                             ′
+                                                           u − v
+u =
+                  ′
+                u v                                           uv
+       1 +                                             1 −
+                                                                  2
+                 c
+                     2                                        c
+
+
+
+Think of frame S as the ground and the frame S′ to be a rocket moving at velocity 0.80c relative to S. The
+rocket launches a missile with speed 0.50c relative to the rocket. This means that v = 0.80c and u′ = 0.50c. The
+speed of the missile relative to S is u and is given by
+            ′
+        u       + v
+u =
+                     ′
+                 u v
+       1 +
+                      2
+                 c
+
+       0.50c + 0.80c
+=
+            0.50c × 0.80c
+     1 +
+                              2
+                          c
+
+     1.30c
+=
+      1.40
+
+= 0.93c
+In Galilean relativity then answer would be u = u′ + v = 1.30c and so impossible. It can be easily checked that,
+irrespective of how close u′ or v are to the speed of light, u is always less than c.
+
+ WORKED EXAMPLE 6.8
+
+ A rocket moves with speed 0.90c relative to the ground. A beam of light is emitted from the rocket in
+ the forward direction. The rocket measures a speed c for the light beam. Use the velocity addition
+ formula to show that the ground observers also measure a speed c for the light beam.
+
+ Answer
+ Applying the formula with v = 0.90c and u′ = c we find
+                    ′
+                u       + v
+  u       =
+                          ′
+                        u v
+              1 +
+                             2
+                         c
+
+                 c + 0.90c
+          =
+                        c × 0.90c
+              1 +
+                                     2
+                                 c
+
+              1.90c
+          =
+                1.90
+
+          = c
+
+
+
+
+ WORKED EXAMPLE 6.9
+
+ Two rockets move away from each other with speeds of 0.80c and 0.90c with respect to the ground, as
+ shown in Figure 6.14. What is the velocity of rocket B as measured by rocket A?
+
+
+
+
+ Figure 6.14: For worked example 6.9.
+
+ Answer
+ Let us call the frame of the ground S and that of rocket A, S′. Then v = −0.80c. We want to find the
+ velocity of rocket B relative to A, i.e. relative to S′, so we are looking for u′. The velocity of rocket B
+ relative to the ground (S) is u = +0.90c and so
+                 u − v
+      ′
+  u       =
+                         uv
+                1 −
+                             2
+                         c
+
+                 +0.90c − (−0.80c)
+          =
+                         (0.90c)(−0.80c)
+                1 −
+                                             2
+                                         c
+
+                +1.70c
+          =
+                1 + 0.72
+
+          = +0.988c ≈ +0.99c
+
+
+ The velocity of rocket A relative to rocket B is expected to be –0.99c. We can calculate this explicitly as
+ follows: again let S be the ground frame and S′ the frame of rocket B. Then v = +0.90c and u = −0.80c.
+ We are again looking for u′ and
+                    u − v
+      ′
+  u        =
+                         uv
+                1 −
+                             2
+                         c
+
+                        −0.80c − 0.90c
+           =
+                         (−0.80c)(0.90c)
+                1 −
+                                             2
+                                         c
+
+           ≈ −0.99c
+
+
+  as expected.
+
+
+Simultaneity
+Another great change introduced into physics as a result of relativity is in the concept of simultaneity.
+Suppose that as usual we have frames S and S′ with frame S′ moving to the right with speed v relative to S.
+Suppose that two events take place at the same time in frame S′. The time interval between these two events is
+thus zero, Δt′ = 0. What is the time interval between the same two events when measured in S? The Lorentz
+equations give
+                                 v
+                         ′                       ′
+Δt        = γ (Δt            +           Δx )
+                                     2
+                                 c
+                v
+                             ′
+          = γ           Δx
+                    2
+                c
+
+
+If Δx′ ≠ 0, then the events will not be simultaneous in other frames. On the other hand, if Δx′ = 0, i.e. if the
+simultaneous events in S′ occur at the same point in space, then they are also simultaneous in all other frames.
+
+  KEY POINT
+
+  Events that are simultaneous for one observer and which take place at different points in space, are not
+  simultaneous for another observer in motion relative to the first.
+
+  On the other hand, if two events are simultaneous for one observer and take place at the same point in
+  space, they are simultaneous for all other observers as well.
+
+
+Imagine an observer T is in the middle of a train carriage that is moving with constant speed to the right with
+respect to the train station. We are told that two light signals are emitted from the ends of the carriage at the
+same time as far as the observer T in the train is concerned, Figure 6.15. It is then clear that the two signals
+arrive at T at the same time as far as T is concerned. What does an observer G at rest on the ground say about
+this situation?
+
+
+
+
+Figure 6.15: Light leaves A and B at the same time as far as T is concerned.
+
+The emissions from A and B take place at different points in space and are simultaneous for observer T. So they
+will not be simultaneous for observer G. On the other hand the arrival of the signals at T is simultaneous for T
+and happen at the same point in space so they will also be simultaneous for G.
+Which signal was emitted first according to G? From G’s point of view, T is moving away from the signal from
+A. So the signal from A has a larger distance to cover to get to T. If the signals are received at the same time,
+and moved at the same speed (c), it must be that the one from A was emitted before that from B.
+
+  CHECK YOURSELF 5
+
+  Two observers, N and M, are at rest on the ground. M is midway between two street lights (Figure 6.16). M
+  measures that the streetlights turn on at the same time.
+
+
+
+
+  Figure 6.16: For check yourself question 5.
+
+  a    Does M receive light from the two lamps at the same time?
+
+  b    Do the street lights turn on at the same time according to N?
+
+  c    Does N receive light from the two lamps at the same time?
+
+
+  WORKED EXAMPLE 6.10
+
+  Let us re-work the situation of Figure 6.15 quantitatively. Take the proper length of the ‘train’ (frame S′)
+  to be 300 m and let it move with speed 0.98c to the right. Determine, according to an observer on the
+  ground (frame S), which light is emitted first and by how much.
+
+  Answer
+  We are told that Δt′ = 0 and Δx′ = x′B − x′A = 300 m. We want to find Δt, the time interval between the
+                                                                                              1
+  events representing the emission of light from A and B. The gamma factor is γ =        − −−− −−−
+                                                                                                      = 5.0.
+                                                                                        √ 1 − 0.982
+
+  Then
+  Δt   = tB − tA
+
+                         v
+                 ′                        ′
+       = γ (Δt       +           Δx )
+                             2
+                         c
+
+                                 0.98c
+       = 5.0 × (0 +                           × 300)
+                                      2
+                                  c
+
+       = +4.9 μs
+
+
+  The positive sign indicates that tB > tA, i.e. the light from A was emitted 4.9 μs before the light from B.
+
+
+Muon decay
+Muons are particles with properties similar to those of the electron except that they are more massive, are
+unstable and decay into electrons; they have an average lifetime of about 2.2 × 10−6 s. (The reaction is
+         + v̄ + v .)
+ −       −
+μ  → e       e           μ
+
+
+
+
+This is the lifetime measured when the muon is at rest—this is the proper time interval between the creation
+of a muon and its subsequent decay.
+
+From the point of view of an observer in the laboratory, however, the muons are moving at high speed; the
+lifetime is longer because of time dilation. Consider a muon created by a source at the top of a mountain 3.0
+km tall, Figure 6.17. The muon travels at 0.99c towards the surface of the earth.
+
+
+
+
+Figure 6.17: a Muons created at the top of the mountain would not have enough time to reach the surface as
+muons if relativity did not hold. b With relativity the muons last longer and make it to the surface before
+decaying.
+
+Without the relativistic time dilation effect, the muon would have travelled a distance of only
+                8                −6
+0.99 × 3 × 10       × 2.2 × 10        m = 0.653 km
+
+
+
+before decaying into an electron. Thus a detector at the base of the mountain would record the arrival of
+electrons, not muons. But experiments show the arrival of muons at the detector. This is because the lifetime
+of the muon as measured by ground observers is
+time interval       = γ × proper time
+
+                                   −6
+                        2.2 × 10           s
+                    =
+                         − −−− −−−
+                        √ 1 − 0.992
+
+                                      −5
+                    = 1.56 × 10            s
+
+
+
+In this time the muon travels a distance (as measured by the ground observers) of
+                8                 −5
+0.99 × 3 × 10       × 1.56 × 10         m = 4.63 km
+
+
+
+This means that the muon reaches the surface of the earth before decaying.
+
+The fact that muons do make it to the surface of the earth is evidence in support of the time dilation effect.
+
+The muon exists as a muon for only 2.2 × 10−6 s in the muon’s rest frame. So how does an observer travelling
+along with the muon explain the arrival of muons (and not electrons) at the surface of the earth, Figure 6.18?
+
+
+
+
+Figure 6.18: From the point of view of an observer on the muon the mountain is much shorter.
+
+The answer is that the distance of 3.0 km measured by the observers on earth is a proper length for them but
+not for the observer at rest with respect to the muon. This observer claims that it is the earth that is moving
+upward and so measures a length-contracted distance of
+       − −−− −−−
+                2
+3.0 × √ 1 − 0.99 km = 0.42 km
+to the surface of the earth. The earth’s surface is coming up to this observer with a speed of 0.99c and so the
+time when they will meet is
+              3
+  0.42 × 10
+                                        −6
+                      s = 1.4 × 10           s
+                  8
+0.99 × 3 × 10
+
+
+that is, before the muon decays!
+
+In this sense, muon decay experiments are direct confirmations of time dilation and indirect confirmations of
+length contraction.
+
+ WORKED EXAMPLE 6.11
+
+ At the Stanford Linear Accelerator (SLAC), electrons of speed v = 0.960c move a distance of 3.00 km.
+ a    Calculate how long this takes according to observers in the laboratory.
+
+ b    Calculate how long this takes according to an observer travelling along with the electrons.
+
+ c    Find the speed of the linear accelerator in the rest frame of the electrons.
+
+ Answer
+                                                                                          3
+                                                                              3.00 × 10
+ a    In the laboratory the electrons take a time of                                                  s = 1.04 × 10
+                                                                                                                      −5
+                                                                                                                           s
+                                                                                                  8
+                                                                           0.960 × 3.00 × 10
+
+
+ b    The arrival of the electrons at the beginning and the end of the accelerator track happens at the
+      same point in space as far as the observer travelling along with the electrons is concerned, and so
+                                                                                              1
+      that is a proper time interval. The gamma factor is γ =                        − −−−− −−−
+                                                                                                         = 3.571 . Thus
+                                                                                    √ 1 − 0.9602
+
+
+      time interval          = γ × proper time interval
+
+
+                                                              −5
+                                             1.04 × 10
+       proper time interval             =                              s
+                                                      3.571
+                                                              −6
+                                        = 2.91 × 10                s
+
+
+ c    The speed of the accelerator is obviously v = 0.960c in the opposite direction. But this can be
+      checked as follows. As far as the electron is concerned, the length of the accelerator track is moving
+      past it and so is length-contracted according to
+                          proper length
+      length      =
+                                γ
+
+                          3.00 km
+                  =
+                           3.571
+
+                  = 0.840 km
+
+
+      and so has a speed of
+                                        3
+                          0.840 × 10
+                                                      −1
+       speed          =                      m s
+                                      −6
+                          2.91 × 10
+                                    8            −1
+                      = 2.89 × 10       m s
+
+                      ≈ 0.96c
+
+
+
+
+ SCIENCE IN CONTEXT
+
+ General arguments apply to special cases but not the other way around.
+ Years before relativity was introduced by Einstein an experiment performed by Michelson and Morley gave
+ a very puzzling result concerning the speed of light. There were frantic attempts to resolve the difficulties
+ posed by this experiment. One attempt was to assume that moving lengths appear shorter. Similarly,
+ Lorentz showed that if one used his Lorentz transformations equations certain difficulties with
+ electromagnetism went away. But it was Einstein who re-derived these transformations equations from far
+more general principles, the postulates of relativity. By demanding that all inertial observers experience the
+same laws of physics and measuring the same velocity of light in vacuum the Lorentz equations emerged
+as the simplest linear equations that could achieve this.
+
+
+TEST YOUR UNDERSTANDING
+
+16 An earthling sits on a bench in a park eating a sandwich. It takes him 5 min to finish it according to his
+   watch. He is being monitored by planet Zenga invaders who are passing earth at a speed of 0.90c.
+    a    Calculate how long the aliens reckon it takes an earthling to eat a sandwich.
+
+    b    The aliens in the spacecraft get hungry and start eating their sandwiches. It takes a Zengan 5 min
+         to eat her sandwich according to Zengan clocks. They are actually being observed by earthlings
+         as they fly over earth. Calculate how long it takes a Zengan to eat a sandwich according to earth
+         clocks.
+
+17 A cube has density ρ when the density is measured at rest. Suggest what happens to the density of
+   the cube when it travels past you at a relativistic speed.
+
+18 A pendulum in a fast train is found by observers on the train to have a period of 1.0 s. Calculate the
+   period observers on a station platform would measure as the train moves past them at a speed of
+   0.95c.
+
+19 A spacecraft moves past you at a speed of 0.95c, and you measure its length to be 100 m. Calculate
+   the length you would measure if it were at rest with respect to you.
+
+20 Two identical fast trains move parallel to each other. An observer on train A tells an observer on train
+   B that by her measurements (i.e. A’s) train A is 30 m long and train B is 28 m long.
+
+    The observer on train B takes measurements. Calculate what he will find for:
+    a    the speed of train A with respect to train B
+
+    b    the length of train A
+
+    c    the length of train B.
+
+21 An unstable particle has a lifetime of 5.0 × 10−8 s as measured in its rest frame. The particle is moving
+   in a laboratory with a speed of 0.95c with respect to the lab.
+    a    Calculate the lifetime of the particle according to an observer at rest in the laboratory.
+
+    b    Calculate the distance travelled by the particle before it decays, according to the observer in the
+         laboratory.
+
+22 The star Vega is about 50 ly away from earth. A spacecraft moving at 0.995c is heading towards Vega.
+    a    Calculate how long it will take the spacecraft to get to Vega according to clocks on earth.
+
+    b    The crew of the spacecraft consists of 18-year-old IB graduates. Calculate how old the graduates
+         are (according to their clocks) when they arrive at Vega.
+
+23 A rocket approaches a mirror on the ground at a speed of 0.90c as shown in Figure 6.19.
+
+    The distance D between the front of the rocket and the mirror is 2.4 × 1012 m, as measured by the
+    observers on the ground, when a light signal is sent towards the mirror from the front of the rocket.
+    Figure 6.19: For question 23.
+
+    Calculate when the reflected signal is received by the rocket as measured by:
+    a    the observers on the ground
+
+    b    the observers on the rocket.
+
+24 Two objects move along the same straight line as shown in Figure 6.20. Their speeds are as measured
+   by an observer on the ground.
+
+
+
+
+    Figure 6.20: For question 24.
+
+    Find:
+    a    the velocity of B as measured by A;
+
+    b    the velocity of A as measured by B.
+
+25 Repeat question 24 for the arrangement in Figure 6.21.
+
+
+
+
+    Figure 6.21: For question 25.
+
+26 A particle A moves to the right with a speed of 0.60c relative to the ground. A second particle B
+   moves to the right with a speed of 0.70c relative to A. Calculate the speed of B relative to the ground.
+
+27 Particle A moves to the left with a speed of 0.60c relative to the ground. A second particle B moves to
+   the right with a speed of 0.70c relative to A. Find the speed of B relative to the ground.
+
+28 A muon travelling at 0.95c covers a distance of 2.00 km (as measured by an earthbound observer)
+   before decaying.
+    a    Calculate the muon’s lifetime as measured by the earthbound observer.
+
+    b    Calculate the lifetime as measured by an observer travelling along with the muon.
+
+29 The lifetime of the unstable pion particle is measured to be 2.6 × 10−8 s (when at rest). This particle
+   travels a distance of 20 m in the laboratory just before decaying. Calculate its speed.
+
+30 In frame S two light signals are emitted from the same point in space 2.0 µs apart. In frame S′ the time
+   between the emissions is measured to be 8.0 µs.
+    a    What is the speed of S′ relative to S?
+    b    How far apart are the emission points according to S′?
+
+31 A rocket approaches a space station. The rocket moves with velocity 0.80c relative to the space
+   station. Two lights at the ends of the space station turn on at the same time according to space
+   station observers. Which light turns on first according to rocket observers?
+
+32 Two simultaneous events in frame S are separated by a distance Δx = x2 − x1 = 1200 m. Determine the
+    time separating these two events in frame S′, stating which one occurs first. S′ moves past S with
+    velocity 0.80c.
+
+33 A spacecraft leaves earth moving away at speed 0.60c relative to earth. Mandy, an astronaut, has her
+   birthday that day. In a year’s time (according to spacecraft clocks) she will have her birthday again.
+   Her friends on earth want to celebrate by sending her a light signal. When, by earth clocks, should the
+   light signal be sent so that it arrives at the spacecraft on Mandy’s birthday?
+6.3 Spacetime diagrams
+We now introduce a pictorial representation of relativistic phenomena, first introduced into physics by one of
+Einstein’s friends, H. Minkowski.
+
+Spacetime diagrams
+In Chapter 1 we saw lots of motion graphs. In particular we saw graphs of position (vertical axis) versus time
+(horizontal axis). In relativity it is customary to show these graphs with the axes reversed, i.e. time is plotted on
+the vertical axis and position on the horizontal. These are called spacetime diagrams (sometimes called
+Minkowski diagrams). For reasons we will see shortly, it is convenient to instead plot ct on the vertical axis
+rather than time itself. The vertical axis then also has units of length. Since the speed of light is a constant
+everyone agrees on, knowing the value of ct allows us to find the value of t.
+
+
+
+
+Figure 6.22: a The space and time co-ordinates of an event: x = 5.0 m and ct = 6.0 m. b The worldline of a
+particle at rest is the sequence of events showing the position of the particle at different times (blue line). A
+particle moving to the right has a worldline shown by the red line.
+
+Figure 6.22a shows a spacetime diagram and an event (marked by the dot). The space and time co-ordinates
+of the event are read from the graph in the usual way: we draw lines through the dot parallel to the axes and
+see where the lines intersect the axes. This event has x = 5.0 m and ct = 6.0 m giving
+          6.0
+t =                     = 2.0 × 10
+                                     −8
+                                          s   .
+                    8
+      3.0 × 10
+
+
+Now consider a particle that is at rest at position x = a, Figure 6.22b. As time goes by we may think of a
+sequence of events showing the position of the particle (which does not change) at different times. This
+sequence of events traces the blue straight line on the spacetime diagram. This is called the worldline of the
+particle. Another particle that starts from x = 0 at t = 0 and moves with constant positive velocity would have a
+worldline as shown in red. From the diagram:
+           x            y
+tan θ =         =
+           ct           c
+
+
+The tangent of the angle between the worldline and the ct axis gives the speed divided by the speed of light.
+
+This is why it is convenient to plot ct on the vertical axis: a photon moves at speed c, and so it makes an angle
+               c
+of θ = tan     −1
+                  = 45° to both axes. Since nothing can exceed c, the worldline of any particle will always make
+                    c
+
+an angle less than 45° with the ct axis. In Figure 6.23a, the red worldline represents a particle moving to the
+right. The green worldline belongs to a particle moving to the left. The blue worldline is impossible since it
+involves a speed greater than c. Figure 6.23b shows an event E at x = 0 and ct = 0. The region coloured yellow
+consists of all events that can be influenced by event E. For example, E could be an explosion. We see the glass
+of a window shatter later on, event L. Could the event E be responsible for L? The answer is that it could if L is
+in the yellow region but could not if L is outside this region. The fastest a signal can travel is at the speed of
+light so any signal from E to L has to be within the yellow region. Similarly, events that could have influenced E
+are within the region coloured blue.
+
+  EXAM TIP
+
+  An event E can be the cause of an event L if the time separating E and L is greater than or equal to the
+  travel time of a photon from the position of E to that of L.
+
+
+
+
+Figure 6.23: a Various worldlines. The one in blue is impossible because it corresponds to a particle moving
+faster than light. b Future and past light-cones. Event E could be the cause of an event if the time separation is
+greater or equal to the photon travel time. This means the events E could cause lie in the yellow region.
+
+To proceed we need a small digression. In mathematics we are used to working with axes that are at right
+angles to each other, Figure 6.24a. But they don’t have to be. The axes could be slanted, Figure 6.24b. To find
+the co-ordinates of a point on a diagram with slanted axes we simply draw lines parallel to the axes and see
+where they intersect the axes.
+Figure 6.24: To find the co-ordinates of a point we draw lines from the point parallel to the axes and see
+where these lines intersect the axes.
+
+Convince yourself that the x co-ordinate of point P and the ct co-ordinate of point Q in Figure 6.24 are both
+zero.
+
+Now consider a second inertial reference frame that moves to the right with speed v. Let us assume that when
+clocks in both frames show zero the origins of the frames coincide. The origin of frame S′ moves to the right
+                                                                                      v
+with speed v. Therefore, the worldline of the origin of S′will make an angle θ = tan    with the ct axis of S.
+                                                                                                       −1
+
+                                                                                                            c
+
+But this worldline is just the collection of all events with x′ = 0 and so is the time axis of the frame S′. Where is
+the space axis? It has to make the same angle θ with the x-axis, Figure 6.25. To see why, consider a photon
+emitted at the origin (yellow worldline). In the frame S′ the distance travelled is L and the time taken is
+                           L                                      L
+ct
+     ′
+         = L ⇒ t
+                   ′
+                       =       . So the speed of light in S′ is       = c   which is precisely what we want: the speed of light
+                           c                                      L
+
+                                                                  τ
+
+must be the same in all inertial frames. Hence the axes must be slanted as the red axes in Figure 6.25.
+Figure 6.25: Two frames in relative velocity on the same spacetime diagram. The red axes represent a frame
+moving to the right.
+
+
+  WORKED EXAMPLE 6.12
+
+  Use the spacetime diagram in Figure 6.26 to estimate the speed of frame S′ relative to frame S.
+
+
+
+
+  Figure 6.26: For worked example 6.12.
+
+  Answer
+                                          3.0                     v
+  The tangent of the angle θ is tan θ =         = 0.60   and so       = 0.60 ⇒ v = 0.60c   .
+                                          5.0                     c
+
+
+
+
+Finding the scale on the primed axes
+The diagram in Figure 6.27 shows the axes of a frame S, and the red axes are the axes of a frame S′ that moves
+with speed 0.60c relative to S. The important thing to notice about the red axes is that they have a different
+scale than those of the black axes! In other words we cannot use our ruler to find out how long a unit is on the
+x axis and then lay the ruler on the x′ axis in order to find a length of 1. So where is the 1 on the x′ axis and
+where is the 1 on the ct′ axis?
+
+On the x′ axis we have a point with co-ordinates x′ = 1 and ct′ = 0. In the S frame this point has a co-ordinate
+that we can find using a Lorentz transformation (the gamma factor for a speed of 0.60c is 1.25):
+              ′          ′
+x    = γ (x       + vt )
+
+     = γ(1 − 0)
+
+     = 1.25
+
+
+Similarly, to find the point with co-ordinates ct′ = 1 and x′ = 0 we use
+                  ′          ′
+ct   = γ (ct          + vcx )
+
+     = γ(1 − 0)
+
+     = 1.25
+
+
+
+
+Figure 6.27
+
+    WORKED EXAMPLE 6.13
+
+    Find the scale on the red axes in Figure 6.28a.
+
+
+
+
+    Figure 6.28a The scale on the primed axes is different from that on the unprimed axes.
+  Answer
+                                                                               1
+  The speed of the red frame is about 0.75c. The gamma factor is then      − −−− −−−
+                                                                                        ≈ 1.5   . Where the blue
+                                                                                    2
+                                                                          √ 1 − 0.75
+
+  lines intersect the red axes is where the ‘1’ is.
+
+
+
+
+  Figure 6.28b For worked example 6.13.
+
+
+
+
+Length contraction and spacetime diagrams
+Spacetime diagrams show length contraction in a very clear and direct way. Imagine a rod of proper length 1
+m at rest in the S′ frame. This frame moves away from a frame S with some speed v. We expect that the
+observers in S will measure a length for the rod that will be less than 1 m. The left end of the rod is at x′ = 0
+and the other end is at x′ = 1 m. The worldlines of the ends of the rod are shown in Figure 6.29 (red line for
+the left end, blue line for the right end).
+Figure 6.29: Rod at rest in S′. The observers in S′ measure a length of 1 m for the rod. The blue line is the
+worldline of the right end of the rod. The observers in S measure a shorter length.
+
+The worldlines of the two ends intersect the x axis at 0 and 0.8 m. These two intersection points represent the
+positions of the moving rod’s ends at the same time in frame S. Their difference therefore gives the length of
+the rod as measured by S. The length is 0.8 m, less than 1 m. The rod which moves according to observers in S
+has contracted in length.
+
+What if we had a rod of proper length 1 m at rest in the S frame which was viewed by observers in the S′
+frame, Figure 6.30?
+
+
+
+
+Figure 6.30: Rod at rest in S. The observers in S measure a length of 1 m for the rod. The blue lines are the
+worldlines of the ends of the rod. The observers in S′measure a shorter length.
+
+
+  EXAM TIP
+
+  If the rod is moving its length must be measured when the position of its ends are recorded at the same
+  time.
+
+  It is only lengths in the direction of the velocity that are contracted.
+
+
+The two blue lines represent the worldlines of the ends of the rod. The worldlines of the two ends intersect the
+x′ axis at 0 and 0.8 m. These two intersection points represent the positions of the rod’s ends at the same time
+in frame S′. Their difference therefore gives the length of the rod as measured by S′. The length is 0.8 m, less
+than 1 m.
+
+  EXAM TIP
+
+  Do not be led astray by your knowledge of Euclidean geometry! The length in S′ ‘looks’ longer. But it isn’t.
+  The scale on the two axes is not the same!
+
+
+Time dilation and spacetime diagrams
+Spacetime diagrams also show the phenomenon of time dilation very clearly. Figure 6.31 shows a spacetime
+diagram showing the standard frames S and S′. A clock at rest in the origin of S′ ticks at O and then again at P.
+The duration of the tick is ct′ = 1. What is the duration of the tick according to frame S? We have to draw a line
+parallel to the x axis through P. This intersects the S time axis at point Q. This interval is greater than 1.
+Figure 6.31: The green line is the worldline of a clock at rest in frame S′. This clock shows ct′ = 1 at P.
+
+Similarly, Figure 6.32 can be used to analyze a clock at rest at the origin of frame S. It ticks at O and then at P.
+The duration of the tick is such that ct = 1. From P we draw a line parallel to the axis x′. The line intersects the
+ct′ axis at Q. The interval OQ is longer than 1.
+
+
+
+
+Figure 6.32: This clock shows ct = 1 at P.
+
+
+  EXAM TIP
+
+  Do not be led astray by your knowledge of Euclidean geometry! In triangle OPQ the hypotenuse is the
+  side OP, and so it should have been the longest side of the triangle. But the geometry of spacetime
+  diagrams is not Euclidean! The Pythagorean theorem does not hold.
+
+
+Simultaneity and spacetime diagrams
+Simultaneity is easy to see on spacetime diagrams. In Figure 6.33 events A and B are clearly simultaneous in
+frame S (ct =1.2 for both).
+Figure 6.33: A and B are simultaneous in the S frame.
+
+In frame S′, B occurs first. To find out how much earlier B occurs use a Lorentz transformation:
+
+Δx = 1.0 − 0.5 = 0.5 m and Δt = 0. So
+      ′            ′         ′
+cΔt       = c (t       − t       )
+                   B         A
+
+
+                                 vΔx
+          = γ (cΔt −                     )
+                                     c
+
+          = 1.25 × (0 − 0.60 × 0.5)
+
+          = −0.38 m
+
+
+The negative sign indicates B occurs earlier as we see from the diagram.
+
+  CHECK YOURSELF 6
+
+  A rocket moves past the ground. Two trees are hit by lightning the instant the rocket is halfway between
+  the trees. The strikes happen at the same time as far the rocket is concerned. (See Figure 6.34.)
+
+
+
+
+  Figure 6.34: For check yourself question 6.
+
+  Use a spacetime diagram to determine which tree is hit fi rst according to the ground.
+
+  Does light from the two strikes reach the rocket at the same time?
+
+
+  WORKED EXAMPLE 6.14
+The spacetime diagram in Figure 6.35 shows a number of events. List the events from earliest to latest in
+each frame.
+
+
+
+
+Figure 6.35: For worked example 6.14.
+
+Answer
+In S (blue frame) events A and C are simultaneous and occur after event B. (A and C are on the same line
+parallel to the x axis).
+
+In S′ (red frame) events B and C are simultaneous and occur before event A. (B and C are on the same
+line parallel to the x′ axis).
+
+
+WORKED EXAMPLE 6.15
+
+A spacecraft is moving away from earth at speed 0.60c. At ct = 0, just as the spacecraft begins to move,
+a flash of light leaves a space station which is at rest 4.0 ly from earth, according to earth. Using a
+spacetime diagram, estimate the time the flash of light arrives at the spacecraft according to a earth
+and b the spacecraft.
+
+Answer
+We must draw the worldline of a photon leaving the position x = 4.0 ly and see where it intersects the
+worldline of the spacecraft. This is a time of ct = 2.5 ly for earth. To estimate the time for the spacecraft
+we must find the scale on the worldline of the spacecraft (red line). The gamma factor is 1.25. This
+allows us to find the ‘1’ on the worldline of the spacecraft. The photon worldline is at 45° as shown. By
+measuring on the worldline we find a time of ct′ = 2.0 ly. This is all shown on the spacetime diagram in
+Figure 6.36.
+Figure 6.36: For worked example 6.15.
+
+
+
+
+CHECK YOURSELF 7
+
+Verify the conclusion of worked example 6.15 using Lorentz transformations.
+
+
+WORKED EXAMPLE 6.16
+
+Two stars, A at position –3 ly and B at position +3 ly, both explode at ct = 0. A spacecraft moving at
+velocity +0.60c is at x = 0 when ct = 0. Use a spacetime diagram to determine a which star exploded
+first according to the spacecraft observers and b from which star explosion light reaches the spacecraft
+observers first.
+
+Answer
+The red lines are the axes of the spacecraft frame, Figure 6.37. By drawing lines through the events
+representing the explosions parallel to the space axis of the spacecraft and see where they intersect the
+time axis we see that B occurred first. Photon lines at 45° from A and B show that light from B arrives
+first.
+Figure 6.37: For worked example 6.16.
+
+
+
+SCIENCE IN CONTEXT
+
+The power of diagrams
+Spacetime diagrams offer a simple and pictorial way of understanding relativity. They can be used to
+unambiguously resolve misunderstandings and ‘paradoxes’. Their power lies in their simplicity and their
+clarity. In physics, the use of diagrams, as well as appropriate notation, in describing situations has always
+helped understanding. Spacetime diagrams are especially useful in seeing what event can or cannot cause
+another. Feynman diagrams are another example of this, as is the use of vectors as opposed to
+components.
+
+
+TEST YOUR UNDERSTANDING
+
+In the questions that follow, the spacetime diagrams represent two inertial frames. The black axes
+represent frame S. The red axes represent a frame S′ that moves past frame S with velocity v.
+34 Use the spacetime diagram (Figure 6.38) to calculate the velocity of frame S′ relative to S.
+
+
+
+
+    Figure 6.38: For question 34.
+
+35 a     On the spacetime diagram in Figure 6.39 draw the worldline of a particle that is:
+         i    at rest in frame S at x = 1.0 m.
+
+         ii   moving with velocity –0.40 c as measured in S and is at x = 1.0 m at t = 0.
+        Figure 6.39: For question 35.
+
+    b   A photon is emitted from position x = 1.5 m at t = 0. Use Figure 6.39 to estimate when the
+        photon arrives at the eye of an observer at rest at the origin of frame S′ according to:
+        i    S
+
+        ii   S′
+
+36 a    S′represents an alien attack cruise ship. Use the diagram in Figure 6.40 to determine the speed of
+        the cruise ship relative to S.
+    b   At t = 0, a laser beam moving at the speed of light is launched from x = 2 ly towards the cruise
+        ship. By drawing the worldline of the laser beam, estimate the time when the beam hits the cruise
+        ship according to:
+        i    S
+
+        ii   S′.
+
+
+
+
+        Figure 6.40: For question 36.
+
+37 The diagram in Figure 6.41 shows two lamps at x = ±0.5 m that turn on at time zero in frame S.
+    Figure 6.41: For question 37.
+
+    a    Determine which lamp turns on first in frame S′.
+
+    b    Draw the worldlines of the photons emitted from the two lamps towards an observer at rest at
+         the origin of S′.
+
+   c     State the lamp whose light reaches an observer at the origin of frame S′ first.
+38 a     Look at Figure 6.42. The dashed blue line is parallel to the primed time axis and intersects the
+         primed x axis at P. The S′ frame moves with speed v relative to S. Find v and, by using Lorentz
+         transformations, find the co-ordinates of P in the S′ frame. Hence label the event with co-
+         ordinates x′ = 1, ct′ = 0.
+
+
+
+
+         Figure 6.42: For question 38.
+
+    b    Repeat part a where now the speed v is arbitrary to find the space co-ordinate of P. Express your
+         answer in terms of the gamma factor.
+
+39 By any suitable method, locate the events (x′ = 1 m, ct′ = 0) and (x′ = 0, ct′ = 1 m) on the spacetime
+   diagram in Figure 6.43.
+    Figure 6.43: For question 39.
+
+40 The purple line in the diagram in Figure 6.44 represents a rod of length 1.0 m at t = 0 as measured in
+   the S frame.
+
+
+
+
+    Figure 6.44: For question 40.
+
+
+
+    a    By drawing appropriate lines, show that the length of the rod measured in frame S′ is less than 1
+         m.
+
+    b    i    Draw a line to represent a rod of length 1.0 m as measured in the S′ frame.
+         ii   By drawing appropriate lines, show that the length of the rod measured in frame S is less
+              than 1 m.
+
+41 A clock is at rest at the origin of frame S′ as shown in Figure 6.45. Its first tick occurs at ct′ = 0. The
+   second tick of the clock occurs at ct′ = 1 m as measured in S′.
+      Figure 6.45: For question 41.
+
+      a    Mark these events on the spacetime diagram.
+
+      b    By drawing appropriate lines estimate the time in between ticks as measured in S.
+
+ 42 A rocket leaves earth at speed 0.80 c on its way to a planet a distance 20 ly as measured by earth.
+    When the rocket gets to the planet it sends a light signal to earth.
+      a    When does the signal get to earth according to (i) earth and (ii) rocket?
+
+      b    Illustrate your answers with a spacetime diagram.
+
+      c    At t = 0, another rocket leaves the planet returning to earth with speed 0.80 c relative to earth. As
+           the rocket sets out it sends a light signal to earth. When does the light signal arrive at earth
+           according to (i) earth and (ii) rocket clocks?
+
+      d    Illustrate your answers on a spacetime diagram.
+
+
+
+Links
+The formulas of special relativity make no sense when the speed of a material object reaches or exceeds the
+speed of light. This implies that the speed of light is a limiting speed. But the laws of Newtonian mechanics say
+that as long as we provide energy to a body, its speed will increase indefinitely. This implies that the laws of
+Newtonian mechanics also need to be modified! This has serious consequences implying that mass and
+energy are equivalent and can be converted into each other—see Unit E.
+SELF-ASSESSMENT CHECKLIST
+
+                                                                               Nearly     Ready to
+ I am able to …                                              Section Not yet
+                                                                               there      move on
+
+ understand the term reference frame                         6.1
+
+ work with the Galilean transformation equations             6.1
+
+ recite the postulates of the special theory of relativity   6.1
+
+ appreciate the constancy of the speed of light              6.1
+
+ apply the Lorentz transformation equations                  6.1
+
+ understand the effects of time dilation and length          6.2
+ contraction
+
+ apply the relativistic velocity addition formula            6.2
+
+ describe how muon decay experiments provide                 6.2
+ evidence for relativity
+
+ understand the spacetime interval                           6.3
+
+ work with spacetime diagrams                                6.3
+
+ describe various events through spacetime diagrams          6.3
+
+
+
+REFLECTION
+
+Do you understand what an inertial reference frame is and can you identify one? Do you understand the
+postulates of relativity? Can you apply the Lorentz transformation formulas? Do you understand the
+concepts of time dilation and length contraction? Do you understand how muon decay experiments provide
+evidence for relativity? Can you find the speed of an object from its worldline on a spacetime diagram? Can
+you explain time dilation using a spacetime diagram? Can you explain length contraction using a
+spacetime diagram?
+
+
+EXAM-STYLE QUESTIONS
+
+You can find questions in the style of IB exams in the digital coursebook.
+CHECK YOURSELF ANSWERS
+
+1   B and C because there is no acceleration.
+
+2   9 m s−1 due south.
+
+3   No, we have to subtract the time it took light to get to the observer.
+                                                                                                          Δx
+4   If A and B are separated by a distance Δx, the time it would take the photon to get to B would be           .
+                                                                                                           c
+                                                                                      2
+                                                                             (Δx)
+    The spacetime interval is then c (Δt) − (Δx)
+                                              2    2           2
+                                                                   = c
+                                                                         2                     2
+                                                                                          − (Δx)     .
+                                                                                                   = 0
+                                                                                  2
+                                                                              c
+
+
+5   a         Yes
+    b         Yes
+
+    c         No
+
+6   The spacetime diagram in Figure 6.47 shows that the left tree was hit first. Photon lines from the
+    strikes arrive at the rocket at the same time.
+
+7   In frame S the light will reach the spacecraft in a time t given by 0.6ct + ct = 4 ⇒ ct = 2.5 ly when the
+                                        2.5
+    spacecraft is at x = 0.6c ×               = 1.5 ly   . The gamma factor is 1.25 and so
+                                         c
+                               0.6c
+    ct
+         ′
+             = 1.25 × (2.5 −          × 1.5) = 2.0 ly  .
+                                c
+
+
+
+
+Figure 6.47: For check yourself question 6.
+
