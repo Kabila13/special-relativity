@@ -177,31 +177,63 @@
 
 /* ============================================================
    DARK-MODE FIX PHASE 5: Fig. 1 static diagram (.spacetime-figure)
-   is a fixed dark "instrument photo" in every theme. But its SVG
-   contents share class names with the live interactive Minkowski
+   shares SVG class names with the live interactive Minkowski
    diagram (.axis-base, .base-frame, .light-cone, .prime-frame,
-   .event-mark, .event-label, .frame-tag, .grid-labels), so the
-   Phase 2/4 .is-light repaints for those shared classes were
-   leaking into Fig. 1 too — producing dark axis/label text on
-   Fig. 1's still-dark background. These overrides pin Fig. 1's
-   SVG back to its dark-native palette in every theme.
+   .event-mark, .event-label, .frame-tag, .grid-labels). This
+   block pins those shared classes back to legible values whenever
+   Fig. 1's own box background is used, independent of the
+   Phase 2/4 .is-light repaints intended for the live diagram.
+   Superseded for BACKGROUND color by Phase 6 below, which lets
+   Fig. 1 follow the page theme; this phase's job is now just to
+   guarantee every element inside .spacetime-figure has an
+   explicit color (no accidental inheritance from generic
+   .is-light rules), which Phase 6 then overrides for light mode.
    ============================================================ */
 
-.is-light .spacetime-figure .grid-labels{fill:#668b94}
-.is-light .spacetime-figure .axis-base{stroke:#d6eff0}
-.is-light .spacetime-figure .base-frame text{fill:#d6eff0}
-.is-light .spacetime-figure .origin-label{fill:#7e9fa7!important}
-.is-light .spacetime-figure .light-cone line{stroke:#8ce5e4}
-.is-light .spacetime-figure .light-cone text{fill:#8ce5e4}
-.is-light .spacetime-figure .prime-frame line{stroke:#e7e9d8}
-.is-light .spacetime-figure .prime-frame text{fill:#e7e9d8}
-.is-light .spacetime-figure .simultaneity-line{stroke:#d5e3df}
-.is-light .spacetime-figure .spacecraft-worldline{stroke:#e6bf6c}
-.is-light .spacetime-figure .event-mark rect{fill:#e6503e;stroke:#ffcfbf}
-.is-light .spacetime-figure .event-ring{stroke:#e6503e}
-.is-light .spacetime-figure .event-label line{stroke:#e6503e}
-.is-light .spacetime-figure .event-label text{fill:#f8d1c9}
-.is-light .spacetime-figure .frame-tag rect{fill:#0e2938;stroke:#62848d}
-.is-light .spacetime-figure .frame-tag text{fill:#9fdadc}
-.is-light .spacetime-figure figcaption{color:#c8d9db}
-.is-light .spacetime-figure figcaption span{color:#e6503e}
+.spacetime-figure .grid-labels{fill:#668b94}
+.spacetime-figure .axis-base{stroke:#d6eff0}
+.spacetime-figure .base-frame text{fill:#d6eff0}
+.spacetime-figure .origin-label{fill:#7e9fa7!important}
+.spacetime-figure .light-cone line{stroke:#8ce5e4}
+.spacetime-figure .light-cone text{fill:#8ce5e4}
+.spacetime-figure .prime-frame line{stroke:#e7e9d8}
+.spacetime-figure .prime-frame text{fill:#e7e9d8}
+.spacetime-figure .simultaneity-line{stroke:#d5e3df}
+.spacetime-figure .spacecraft-worldline{stroke:#e6bf6c}
+.spacetime-figure .event-mark rect{fill:#e6503e;stroke:#ffcfbf}
+.spacetime-figure .event-ring{stroke:#e6503e}
+.spacetime-figure .event-label line{stroke:#e6503e}
+.spacetime-figure .event-label text{fill:#f8d1c9}
+.spacetime-figure .frame-tag rect{fill:#0e2938;stroke:#62848d}
+.spacetime-figure .frame-tag text{fill:#9fdadc}
+.spacetime-figure figcaption{color:#c8d9db}
+.spacetime-figure figcaption span{color:#e6503e}
+
+/* ============================================================
+   DARK-MODE FIX PHASE 6: Fig. 1 now follows the theme instead of
+   staying pinned dark. Light mode gets a paper-colored box with
+   dark ink axes/text, replacing the Phase 5 "always dark" look
+   for .is-light specifically (dark mode keeps the Phase 5 values
+   above, since those already match the dark-native box).
+   ============================================================ */
+
+.is-light .spacetime-figure{background:#f4f7f2;box-shadow:13px 13px 0 rgba(16,36,50,.12)}
+
+.is-light .spacetime-figure .grid-labels{fill:#7c93a0}
+.is-light .spacetime-figure .axis-base{stroke:var(--paper-ink)}
+.is-light .spacetime-figure .base-frame text{fill:var(--paper-ink)}
+.is-light .spacetime-figure .origin-label{fill:var(--paper-muted)!important}
+.is-light .spacetime-figure .light-cone line{stroke:#1c8388}
+.is-light .spacetime-figure .light-cone text{fill:#1c8388}
+.is-light .spacetime-figure .prime-frame line{stroke:#3a5560}
+.is-light .spacetime-figure .prime-frame text{fill:var(--paper-ink)}
+.is-light .spacetime-figure .simultaneity-line{stroke:var(--paper-muted)}
+.is-light .spacetime-figure .spacecraft-worldline{stroke:#9d7626}
+.is-light .spacetime-figure .event-mark rect{fill:#c63f31;stroke:#f4b2a8}
+.is-light .spacetime-figure .event-ring{stroke:#c63f31}
+.is-light .spacetime-figure .event-label line{stroke:#c63f31}
+.is-light .spacetime-figure .event-label text{fill:#8a3226}
+.is-light .spacetime-figure .frame-tag rect{fill:var(--panel-2);stroke:var(--paper-muted)}
+.is-light .spacetime-figure .frame-tag text{fill:#1b7f87}
+.is-light .spacetime-figure figcaption{color:var(--paper-muted)}
+.is-light .spacetime-figure figcaption span{color:#c63f31}
