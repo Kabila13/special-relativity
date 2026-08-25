@@ -227,7 +227,7 @@ body.is-light .spacetime-figure,
   background: #dcecf3 !important;
   box-shadow: 13px 13px 0 rgba(16,36,50,.12) !important;
 }
-
+.is-light .spacetime-figure .figure-bg { fill: #dcecf3 !important; }
 html.is-light .spacetime-figure .grid-labels,
 body.is-light .spacetime-figure .grid-labels,
 .is-light .spacetime-figure .grid-labels { fill: #7c93a0 !important; }
