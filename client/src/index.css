@@ -43,7 +43,7 @@
 /* --- Light (.is-light) --- restores the original paper look */
 .is-light .transform-section,.is-light .velocity-section{background:var(--paper);background-image:linear-gradient(rgba(17,67,74,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(17,67,74,.055) 1px,transparent 1px);background-size:100% 28px,28px 100%;color:var(--paper-ink)}.is-light .velocity-section{background-color:#dfe5dc}.is-light .transform-section .section-tag p,.is-light .transform-section .micro-label,.is-light .velocity-section .section-tag p,.is-light .velocity-section .micro-label{color:#1b7f87}.is-light .transform-section .relativity-heading p,.is-light .velocity-section .relativity-heading p{color:var(--paper-muted)}
 .is-light .transform-formulas article{background:#f4f7f2;border-left-color:#258e91;box-shadow:7px 8px 0 rgba(16,36,50,.1)}.is-light .transform-formulas article:after,.is-light .event-strip:after{color:rgba(14,109,118,.48)}.is-light .transform-formulas p{color:var(--paper-muted)}.is-light .event-strip{border-color:rgba(16,36,50,.18);background:#dceae4}.is-light .event-strip p{color:var(--paper-muted)}.is-light .event-data span{color:#557078}.is-light .event-data b{color:#143846}.is-light .muon-evidence{background:#f8eed2}.is-light .muon-evidence .micro-label{color:#8c5c14}.is-light .muon-evidence p{color:#4f4123}
-.is-light .velocity-controls{background:#163542;color:#eff7f6}.is-light .velocity-result{background:#f7faf6}.is-light .velocity-result>p{color:#4d6870}.is-light .speed-comparison>div{background:#e3eee8;border-top-color:#17808a}.is-light .speed-comparison>div+div{background:#f5e5de;border-top-color:#d66d55}.is-light .speed-comparison span{color:#537078}.is-light .speed-comparison strong{color:#0f6570}.is-light .speed-comparison strong.warning{color:#b94a39}.is-light .speed-comparison small{color:#5d7379}.is-light .share-result{border-color:#1f6870;color:#155963}.is-light .share-result:hover{background:#155963;color:#fff}
+.is-light .velocity-controls{background:var(--panel-2);color:var(--paper-ink)}.is-light .velocity-controls .instrument-reset{color:var(--paper-muted)}.is-light .velocity-result{background:#f7faf6}.is-light .velocity-result>p{color:#4d6870}.is-light .speed-comparison>div{background:#e3eee8;border-top-color:#17808a}.is-light .speed-comparison>div+div{background:#f5e5de;border-top-color:#d66d55}.is-light .speed-comparison span{color:#537078}.is-light .speed-comparison strong{color:#0f6570}.is-light .speed-comparison strong.warning{color:#b94a39}.is-light .speed-comparison small{color:#5d7379}.is-light .share-result{border-color:#1f6870;color:#155963}.is-light .share-result:hover{background:#155963;color:#fff}
 
 /* ============================================================
    DARK-MODE FIX PHASE 2: Instrument, Worked Example, Quiz,
@@ -112,3 +112,33 @@
 .is-light .quiz-feedback.incorrect{background:#f7e0da;border-color:#c97a68;color:#7a2e1f}
 .is-light .mission-complete{background:var(--panel-2)}
 .is-light .mission-complete p{color:var(--paper-muted)}
+
+/* ============================================================
+   DARK-MODE FIX PHASE 3: fixes a Phase 1 bug (.velocity-controls
+   was re-declared with the SAME dark colors under .is-light,
+   above) and covers panels missed by Phases 1 & 2:
+   .velocity-insight ("Read the result"), .velocity-flight-strip
+   (ship animation), and .study-record (Saved Learning Record).
+   ============================================================ */
+
+.is-light .velocity-insight{background:var(--panel-2);color:var(--paper-ink)}
+.is-light .velocity-insight p{color:var(--paper-muted)}
+.is-light .velocity-insight>div{color:var(--cyan)}
+.is-light .velocity-insight i{border-color:var(--cyan)}
+
+.is-light .velocity-flight-strip{background:var(--panel-2);color:var(--paper-ink);border-color:rgba(16,36,50,.2)}
+.is-light .flight-topline{color:var(--paper-muted);border-bottom-color:rgba(16,36,50,.14)}
+.is-light .flight-topline span{color:var(--cyan)}
+.is-light .flight-topline b{color:var(--paper-muted)}
+.is-light .flight-lane{border-bottom-color:rgba(16,36,50,.14)}
+.is-light .flight-lane:before{background:repeating-linear-gradient(90deg,rgba(16,36,50,.28) 0 10px,transparent 10px 18px)}
+.is-light .flight-label{color:var(--paper-ink)}
+.is-light .flight-footer{color:var(--paper-muted)}
+.is-light .flight-footer strong{color:#9d7626}
+
+.is-light .study-record{background:var(--panel-2);border-color:rgba(22,116,124,.24)}
+.is-light .study-record p{color:var(--paper-muted)}
+.is-light .export-summary{background:var(--cyan);color:#fff}
+.is-light .export-summary:hover{background:var(--cyan-soft)}
+.is-light .clear-session{border-color:rgba(16,36,50,.3);color:var(--paper-muted)}
+.is-light .clear-session:hover{background:rgba(16,36,50,.08)}
