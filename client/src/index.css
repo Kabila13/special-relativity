@@ -44,3 +44,71 @@
 .is-light .transform-section,.is-light .velocity-section{background:var(--paper);background-image:linear-gradient(rgba(17,67,74,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(17,67,74,.055) 1px,transparent 1px);background-size:100% 28px,28px 100%;color:var(--paper-ink)}.is-light .velocity-section{background-color:#dfe5dc}.is-light .transform-section .section-tag p,.is-light .transform-section .micro-label,.is-light .velocity-section .section-tag p,.is-light .velocity-section .micro-label{color:#1b7f87}.is-light .transform-section .relativity-heading p,.is-light .velocity-section .relativity-heading p{color:var(--paper-muted)}
 .is-light .transform-formulas article{background:#f4f7f2;border-left-color:#258e91;box-shadow:7px 8px 0 rgba(16,36,50,.1)}.is-light .transform-formulas article:after,.is-light .event-strip:after{color:rgba(14,109,118,.48)}.is-light .transform-formulas p{color:var(--paper-muted)}.is-light .event-strip{border-color:rgba(16,36,50,.18);background:#dceae4}.is-light .event-strip p{color:var(--paper-muted)}.is-light .event-data span{color:#557078}.is-light .event-data b{color:#143846}.is-light .muon-evidence{background:#f8eed2}.is-light .muon-evidence .micro-label{color:#8c5c14}.is-light .muon-evidence p{color:#4f4123}
 .is-light .velocity-controls{background:#163542;color:#eff7f6}.is-light .velocity-result{background:#f7faf6}.is-light .velocity-result>p{color:#4d6870}.is-light .speed-comparison>div{background:#e3eee8;border-top-color:#17808a}.is-light .speed-comparison>div+div{background:#f5e5de;border-top-color:#d66d55}.is-light .speed-comparison span{color:#537078}.is-light .speed-comparison strong{color:#0f6570}.is-light .speed-comparison strong.warning{color:#b94a39}.is-light .speed-comparison small{color:#5d7379}.is-light .share-result{border-color:#1f6870;color:#155963}.is-light .share-result:hover{background:#155963;color:#fff}
+
+/* ============================================================
+   DARK-MODE FIX PHASE 2: Instrument, Worked Example, Quiz,
+   and Footer sections were hardcoded dark regardless of theme
+   (only a near-identical dark shade was applied under .is-light).
+   This makes them fully light in light mode, using the same
+   paper palette (--paper-ink / --paper-muted) as the Field Log
+   sections fixed in Phase 1.
+   ============================================================ */
+
+/* --- Section backgrounds: override the old "still-dark" is-light rules --- */
+.is-light .instrument-section,.is-light .check-section-relativity{background:var(--panel);color:var(--paper-ink)}
+.is-light .worked-section{background:var(--panel-2);color:var(--paper-ink)}
+.is-light .relativity-footer{background:var(--panel);color:var(--paper-muted)}
+
+/* --- Instrument section: controls, viewport, results --- */
+.is-light .frame-switch{background:rgba(16,36,50,.04)}
+.is-light .frame-switch button{color:var(--paper-muted)}
+.is-light .instrument-heading p{color:var(--paper-muted)}
+.is-light .instrument-controls{background:var(--panel-2)}
+.is-light .control-lead p{color:var(--paper-muted)}
+.is-light .instrument-controls label{color:var(--paper-ink)}
+.is-light .range-ends{color:var(--paper-muted)}
+.is-light .preset-row>span{color:var(--paper-muted)}
+.is-light .preset-row button{background:rgba(16,36,50,.04);border-color:rgba(16,36,50,.18);color:var(--paper-ink)}
+.is-light .instrument-reset{color:var(--paper-muted);border-bottom-color:rgba(16,36,50,.35)}
+.is-light .instrument-note{color:var(--paper-muted)}
+
+.is-light .spacetime-viewport{background:#eef4f0}
+.is-light .viewport-title p{color:var(--paper-muted)}
+.is-light .minkowski-svg{color:var(--paper-muted)}
+.is-light .grid-labels{fill:#7c93a0}
+.is-light .axis-base{stroke:var(--paper-ink)}
+.is-light .base-frame text{fill:var(--paper-ink)}
+.is-light .origin-label{fill:var(--paper-muted)!important}
+.is-light .prime-frame line{stroke:#3a5560}
+.is-light .prime-frame text{fill:var(--paper-ink)}
+.is-light .simultaneity-line{stroke:var(--paper-muted)}
+.is-light .event-label text{fill:#b94a39}
+.is-light .frame-tag rect{fill:var(--panel-2);stroke:var(--paper-muted)}
+.is-light .frame-tag text{fill:#1b7f87}
+.is-light .viewport-legend{background:var(--panel-2);color:var(--paper-muted)}
+
+.is-light .result-card,.is-light .interval-card{background:var(--panel-2)}
+.is-light .result-card>span,.is-light .interval-card>span{color:var(--paper-muted)}
+.is-light .result-card strong{color:var(--paper-ink)}
+.is-light .result-card p,.is-light .interval-card p{color:var(--paper-muted)}
+.is-light .result-card.gamma{background:#f0e6c9}
+.is-light .interval-card.spacelike b{color:#b94a39}
+
+/* --- Worked Example / derivation board --- */
+.is-light .derivation-board{background:var(--panel)}
+.is-light .derivation-stamp{color:#b94a39}
+.is-light .derivation-step>button{color:var(--paper-ink)}
+.is-light .derivation-step>button>span{background:var(--cyan);color:#06202a}
+.is-light .derivation-content p{color:var(--paper-muted)}
+.is-light .derivation-reset{color:var(--paper-muted);border-bottom-color:rgba(16,36,50,.35)}
+
+/* --- Check Yourself / Quiz section --- */
+.is-light .relativity-quiz{background:var(--panel-2)}
+.is-light .quiz-index{background:rgba(22,116,124,.14);color:var(--cyan)}
+.is-light .relativity-quiz label{color:var(--paper-muted)}
+.is-light .relativity-quiz label.correct{background:#dbf0e8;border-color:#3f9c8f;color:#0d4f45}
+.is-light .relativity-quiz label.incorrect{background:#f7e0da;border-color:#c97a68;color:#7a2e1f}
+.is-light .quiz-feedback.correct{background:#dbf0e8;border-color:#3f9c8f;color:#0d4f45}
+.is-light .quiz-feedback.incorrect{background:#f7e0da;border-color:#c97a68;color:#7a2e1f}
+.is-light .mission-complete{background:var(--panel-2)}
+.is-light .mission-complete p{color:var(--paper-muted)}
