@@ -19,8 +19,8 @@
     <line x1="90" y1="380" x2="20" y2="70" />
     <line x1="90" y1="380" x2="460" y2="70" />
   </g>
-  <text x="34" y="64" fill="#8ce5e4" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
-  <text x="440" y="64" fill="#8ce5e4" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
+  <text x="34" y="64" fill="#0f6e56" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
+  <text x="440" y="64" fill="#0f6e56" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
   <g stroke="#e6bf6c" stroke-width="1.6">
     <line x1="90" y1="380" x2="230" y2="90" />
     <line x1="90" y1="380" x2="440" y2="300" />
