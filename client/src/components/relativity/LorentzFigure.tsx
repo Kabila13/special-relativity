@@ -8,7 +8,7 @@
 export default function LorentzFigure() {
   return (
     <svg viewBox="0 0 360 300" role="img" aria-label="Diagram of unprimed axes S, tilted primed axes S prime, the light line, and a marked event">
-      <rect width="360" height="300" fill="#0a1d2b" />
+      <rect width="360" height="300" className="figure-bg" fill="#0a1d2b" />
       <line x1="30" y1="255" x2="330" y2="255" stroke="#7fa2ab" strokeWidth="1.4" />
       <line x1="70" y1="280" x2="70" y2="24" stroke="#7fa2ab" strokeWidth="1.4" />
       <text x="335" y="259" fill="#9fc3ca" fontSize="13">x</text>
