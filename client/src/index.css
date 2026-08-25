@@ -174,3 +174,34 @@
 .is-light .instrument-section{background:#eaf4f8}
 .is-light .spacetime-viewport{background:#dcecf3}
 .is-light .viewport-legend{background:#e6f1f6}
+
+/* ============================================================
+   DARK-MODE FIX PHASE 5: Fig. 1 static diagram (.spacetime-figure)
+   is a fixed dark "instrument photo" in every theme. But its SVG
+   contents share class names with the live interactive Minkowski
+   diagram (.axis-base, .base-frame, .light-cone, .prime-frame,
+   .event-mark, .event-label, .frame-tag, .grid-labels), so the
+   Phase 2/4 .is-light repaints for those shared classes were
+   leaking into Fig. 1 too — producing dark axis/label text on
+   Fig. 1's still-dark background. These overrides pin Fig. 1's
+   SVG back to its dark-native palette in every theme.
+   ============================================================ */
+
+.is-light .spacetime-figure .grid-labels{fill:#668b94}
+.is-light .spacetime-figure .axis-base{stroke:#d6eff0}
+.is-light .spacetime-figure .base-frame text{fill:#d6eff0}
+.is-light .spacetime-figure .origin-label{fill:#7e9fa7!important}
+.is-light .spacetime-figure .light-cone line{stroke:var(--cyan-soft)}
+.is-light .spacetime-figure .light-cone text{fill:#8ce5e4}
+.is-light .spacetime-figure .prime-frame line{stroke:#e7e9d8}
+.is-light .spacetime-figure .prime-frame text{fill:#e7e9d8}
+.is-light .spacetime-figure .simultaneity-line{stroke:#d5e3df}
+.is-light .spacetime-figure .spacecraft-worldline{stroke:var(--gold)}
+.is-light .spacetime-figure .event-mark rect{fill:#e6503e;stroke:#ffcfbf}
+.is-light .spacetime-figure .event-ring{stroke:#e6503e}
+.is-light .spacetime-figure .event-label line{stroke:#e6503e}
+.is-light .spacetime-figure .event-label text{fill:#f8d1c9}
+.is-light .spacetime-figure .frame-tag rect{fill:#0e2938;stroke:#62848d}
+.is-light .spacetime-figure .frame-tag text{fill:#9fdadc}
+.is-light .spacetime-figure figcaption{color:#c8d9db}
+.is-light .spacetime-figure figcaption span{color:var(--red)}
