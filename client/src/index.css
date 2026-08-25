@@ -190,6 +190,7 @@
    .is-light rules), which Phase 6 then overrides for light mode.
    ============================================================ */
 
+.spacetime-figure{margin:0;padding:14px;background:#0a1d2b;box-shadow:13px 13px 0 rgba(16,36,50,.16);transform:rotate(1deg)}
 .spacetime-figure .grid-labels{fill:#668b94}
 .spacetime-figure .axis-base{stroke:#d6eff0}
 .spacetime-figure .base-frame text{fill:#d6eff0}
