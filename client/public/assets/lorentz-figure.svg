@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" width="520" height="480" role="img" aria-label="Tilted reference-frame axes, light cone, and an event on a spacetime diagram">
-  <rect width="520" height="480" fill="#0a1d2b" />
-  <g stroke="#3c9ea4" stroke-width="0.6" opacity="0.28">
+  <rect width="520" height="480" class="figure-bg" fill="#0a1d2b" />
+  <g class="grid-lines" stroke-width="0.6" opacity="0.28">
     <line x1="40" y1="60" x2="40" y2="420" /><line x1="100" y1="60" x2="100" y2="420" />
     <line x1="160" y1="60" x2="160" y2="420" /><line x1="220" y1="60" x2="220" y2="420" />
     <line x1="280" y1="60" x2="280" y2="420" /><line x1="340" y1="60" x2="340" y2="420" />
@@ -9,30 +9,34 @@
     <line x1="20" y1="200" x2="490" y2="200" /><line x1="20" y1="260" x2="490" y2="260" />
     <line x1="20" y1="320" x2="490" y2="320" /><line x1="20" y1="380" x2="490" y2="380" />
   </g>
-  <g stroke="#e7e9d8" stroke-width="1.8">
-    <line x1="30" y1="380" x2="480" y2="380" />
-    <line x1="90" y1="440" x2="90" y2="50" />
+  <g class="base-frame">
+    <g class="axis-base" stroke-width="1.8">
+      <line x1="30" y1="380" x2="480" y2="380" />
+      <line x1="90" y1="440" x2="90" y2="50" />
+    </g>
+    <text x="486" y="374" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="600">x</text>
+    <text x="78" y="44" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="600">ct</text>
   </g>
-  <text x="486" y="374" fill="#e7e9d8" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="600">x</text>
-  <text x="78" y="44" fill="#e7e9d8" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="600">ct</text>
-  <g stroke="#8ce5e4" stroke-width="1.6">
+  <g class="light-cone" stroke-width="1.6">
     <line x1="90" y1="380" x2="20" y2="70" />
     <line x1="90" y1="380" x2="460" y2="70" />
+    <text x="34" y="64" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
+    <text x="440" y="64" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
   </g>
-  <text x="34" y="64" fill="#8ce5e4" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
-  <text x="440" y="64" fill="#8ce5e4" font-family="Newsreader, serif" font-style="italic" font-size="16">c</text>
-  <g stroke="#e6bf6c" stroke-width="1.6">
+  <g class="prime-frame" stroke-width="1.6">
     <line x1="90" y1="380" x2="230" y2="90" />
     <line x1="90" y1="380" x2="440" y2="300" />
+    <text x="236" y="86" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600">ct′</text>
+    <text x="444" y="302" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600">x′</text>
   </g>
-  <text x="236" y="86" fill="#e6bf6c" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600">ct′</text>
-  <text x="444" y="302" fill="#e6bf6c" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600">x′</text>
-  <g filter="none">
-    <rect x="304" y="150" width="14" height="14" fill="#e6503e" stroke="#ffcfbf" stroke-width="1.1" />
-    <circle cx="311" cy="157" r="20" fill="none" stroke="#e6503e" stroke-width="1.2" opacity="0.55" />
+  <g class="event-mark">
+    <rect x="304" y="150" width="14" height="14" stroke-width="1.1" />
   </g>
-  <line x1="322" y1="148" x2="360" y2="126" stroke="#e6503e" stroke-width="1" />
-  <text x="365" y="122" fill="#f8d1c9" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="600" letter-spacing="0.05em">EVENT E</text>
-  <text x="365" y="138" fill="#f8d1c9" font-family="IBM Plex Sans, sans-serif" font-size="12">(x, t) and (x′, t′)</text>
-  <text x="30" y="460" fill="#7e9fa7" font-family="IBM Plex Sans, sans-serif" font-size="12">Frame S′ (gold) is tilted relative to frame S (white) by an angle set by v/c.</text>
+  <circle class="event-ring" cx="311" cy="157" r="20" fill="none" stroke-width="1.2" opacity="0.55" />
+  <line class="event-label" x1="322" y1="148" x2="360" y2="126" stroke-width="1" />
+  <g class="event-label">
+    <text x="365" y="122" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="600" letter-spacing="0.05em">EVENT E</text>
+    <text x="365" y="138" font-family="IBM Plex Sans, sans-serif" font-size="12">(x, t) and (x′, t′)</text>
+  </g>
+  <text class="figure-caption" x="30" y="460" font-family="IBM Plex Sans, sans-serif" font-size="12">Frame S′ (gold) is tilted relative to frame S (white) by an angle set by v/c.</text>
 </svg>
