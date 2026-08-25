@@ -217,7 +217,7 @@
    above, since those already match the dark-native box).
    ============================================================ */
 
-.is-light .spacetime-figure{background:#f4f7f2;box-shadow:13px 13px 0 rgba(16,36,50,.12)}
+.is-light .spacetime-figure{background:#f4f7f2;box-shadow:13px 13px 0 rgba(206, 235, 255, 0.985)}
 
 .is-light .spacetime-figure .grid-labels{fill:#7c93a0}
 .is-light .spacetime-figure .axis-base{stroke:var(--paper-ink)}
