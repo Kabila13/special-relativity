@@ -191,12 +191,12 @@
 .is-light .spacetime-figure .axis-base{stroke:#d6eff0}
 .is-light .spacetime-figure .base-frame text{fill:#d6eff0}
 .is-light .spacetime-figure .origin-label{fill:#7e9fa7!important}
-.is-light .spacetime-figure .light-cone line{stroke:var(--cyan-soft)}
+.is-light .spacetime-figure .light-cone line{stroke:#8ce5e4}
 .is-light .spacetime-figure .light-cone text{fill:#8ce5e4}
 .is-light .spacetime-figure .prime-frame line{stroke:#e7e9d8}
 .is-light .spacetime-figure .prime-frame text{fill:#e7e9d8}
 .is-light .spacetime-figure .simultaneity-line{stroke:#d5e3df}
-.is-light .spacetime-figure .spacecraft-worldline{stroke:var(--gold)}
+.is-light .spacetime-figure .spacecraft-worldline{stroke:#e6bf6c}
 .is-light .spacetime-figure .event-mark rect{fill:#e6503e;stroke:#ffcfbf}
 .is-light .spacetime-figure .event-ring{stroke:#e6503e}
 .is-light .spacetime-figure .event-label line{stroke:#e6503e}
@@ -204,4 +204,4 @@
 .is-light .spacetime-figure .frame-tag rect{fill:#0e2938;stroke:#62848d}
 .is-light .spacetime-figure .frame-tag text{fill:#9fdadc}
 .is-light .spacetime-figure figcaption{color:#c8d9db}
-.is-light .spacetime-figure figcaption span{color:var(--red)}
+.is-light .spacetime-figure figcaption span{color:#e6503e}
