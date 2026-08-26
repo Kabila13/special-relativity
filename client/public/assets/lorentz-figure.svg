@@ -14,22 +14,6 @@
       --event-text: #f8d1c9;
       --caption: #7e9fa7;
     }
-    @media (prefers-color-scheme: light) {
-      :root {
-        --bg: #eaf3f6;
-        --grid: #6fb6ba;
-        --axis: #1f3a42;
-        --cone: #0f9a92;
-        --cone-label: #0a5c4e;
-        --prime-axis: #a9770c;
-        --ct-label: #5b3fa0;
-        --x-label: #a23aa2;
-        --event-fill: #c73e2e;
-        --event-stroke: #7a1f14;
-        --event-text: #7a2418;
-        --caption: #3f6067;
-      }
-    }
   </style>
   <rect width="520" height="480" fill="var(--bg)" />
   <g stroke="var(--grid)" stroke-width="0.6" opacity="0.28">
