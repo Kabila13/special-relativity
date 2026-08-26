@@ -220,41 +220,28 @@
 
 /* Robust fallback — beats any specificity/ordering issue,
    and matches is-light regardless of which ancestor gets the class */
-html.is-light .spacetime-figure,
-body.is-light .spacetime-figure,
-.is-light .spacetime-figure,
-.spacetime-figure.is-light {
-  background: #dcecf3 !important;
-  box-shadow: 13px 13px 0 rgba(16,36,50,.12) !important;
+/* Drive the SVG's internal color variables from the page's .is-light class,
+   instead of relying on prefers-color-scheme (which is decoupled from
+   your manual toggle) */
+.is-light .spacetime-figure svg {
+  --bg: #dcecf3;
+  --grid: #6fb6ba;
+  --axis: #1f3a42;
+  --cone: #0f9a92;
+  --cone-label: #0a5c4e;
+  --prime-axis: #a9770c;
+  --ct-label: #5b3fa0;
+  --x-label: #a23aa2;
+  --event-fill: #c73e2e;
+  --event-stroke: #7a1f14;
+  --event-text: #7a2418;
+  --caption: #3f6067;
 }
-.is-light .spacetime-figure .figure-bg {
-  fill: #f4f7f5 !important;
+
+/* Bold the Fig. 1 caption and its "FIG. 1" label */
+.spacetime-figure figcaption {
+  font-weight: 700;
 }
-.is-light .spacetime-figure .figure-axis {
-  stroke: #445a63 !important;
-}
-.is-light .spacetime-figure .figure-axis-label {
-  fill: #445a63 !important;
-}
-.is-light .spacetime-figure .figure-cone {
-  stroke: #0f9a92 !important;
-}
-.is-light .spacetime-figure .figure-cone-label {
-  fill: #0a5c4e !important;
-}
-.is-light .spacetime-figure .figure-primed {
-  stroke: #a9770c !important;
-}
-.is-light .spacetime-figure .figure-primed-label {
-  fill: #7a5608 !important;
-}
-.is-light .spacetime-figure .figure-event-marker {
-  fill: #c73e2e !important;
-  stroke: #7a1f14 !important;
-}
-.is-light .spacetime-figure .figure-event-halo {
-  stroke: #c73e2e !important;
-}
-.is-light .spacetime-figure .figure-event-label {
-  fill: #7a2418 !important;
+.spacetime-figure figcaption span {
+  font-weight: 800;
 }
