@@ -207,17 +207,8 @@
 .spacetime-figure .event-label text{fill:#f8d1c9}
 .spacetime-figure .frame-tag rect{fill:#0e2938;stroke:#62848d}
 .spacetime-figure .frame-tag text{fill:#9fdadc}
-.spacetime-figure figcaption {
-  font-weight: 700;
-  color: #c8d9db; /* dark mode caption color, matches original */
-}
-.is-light .spacetime-figure figcaption {
-  color: var(--paper-muted);
-}
-.spacetime-figure figcaption span {
-  font-weight: 800;
-  color: #e6503e; /* FIG. 1 label color, both themes */
-}
+.spacetime-figure figcaption{color:#c8d9db}
+.spacetime-figure figcaption span{color:#e6503e}
 /* ============================================================
    DARK-MODE FIX PHASE 6: Fig. 1 now follows the theme instead of
    staying pinned dark. Light mode gets a paper-colored box with
