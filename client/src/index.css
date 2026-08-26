@@ -227,75 +227,34 @@ body.is-light .spacetime-figure,
   background: #dcecf3 !important;
   box-shadow: 13px 13px 0 rgba(16,36,50,.12) !important;
 }
-.is-light .spacetime-figure .figure-bg { fill: #dcecf3 !important; }
-html.is-light .spacetime-figure .grid-labels,
-body.is-light .spacetime-figure .grid-labels,
-.is-light .spacetime-figure .grid-labels { fill: #7c93a0 !important; }
-
-html.is-light .spacetime-figure .axis-base,
-body.is-light .spacetime-figure .axis-base,
-.is-light .spacetime-figure .axis-base { stroke: var(--paper-ink) !important; }
-
-html.is-light .spacetime-figure .base-frame text,
-body.is-light .spacetime-figure .base-frame text,
-.is-light .spacetime-figure .base-frame text { fill: var(--paper-ink) !important; }
-
-html.is-light .spacetime-figure .origin-label,
-body.is-light .spacetime-figure .origin-label,
-.is-light .spacetime-figure .origin-label { fill: var(--paper-muted) !important; }
-
-html.is-light .spacetime-figure .light-cone line,
-body.is-light .spacetime-figure .light-cone line,
-.is-light .spacetime-figure .light-cone line { stroke: #1c8388 !important; }
-
-html.is-light .spacetime-figure .light-cone text,
-body.is-light .spacetime-figure .light-cone text,
-.is-light .spacetime-figure .light-cone text { fill: #1c8388 !important; }
-
-html.is-light .spacetime-figure .prime-frame line,
-body.is-light .spacetime-figure .prime-frame line,
-.is-light .spacetime-figure .prime-frame line { stroke: #3a5560 !important; }
-
-html.is-light .spacetime-figure .prime-frame text,
-body.is-light .spacetime-figure .prime-frame text,
-.is-light .spacetime-figure .prime-frame text { fill: var(--paper-ink) !important; }
-
-html.is-light .spacetime-figure .simultaneity-line,
-body.is-light .spacetime-figure .simultaneity-line,
-.is-light .spacetime-figure .simultaneity-line { stroke: var(--paper-muted) !important; }
-
-html.is-light .spacetime-figure .spacecraft-worldline,
-body.is-light .spacetime-figure .spacecraft-worldline,
-.is-light .spacetime-figure .spacecraft-worldline { stroke: #9d7626 !important; }
-
-html.is-light .spacetime-figure .event-mark rect,
-body.is-light .spacetime-figure .event-mark rect,
-.is-light .spacetime-figure .event-mark rect { fill: #c63f31 !important; stroke: #f4b2a8 !important; }
-
-html.is-light .spacetime-figure .event-ring,
-body.is-light .spacetime-figure .event-ring,
-.is-light .spacetime-figure .event-ring { stroke: #c63f31 !important; }
-
-html.is-light .spacetime-figure .event-label line,
-body.is-light .spacetime-figure .event-label line,
-.is-light .spacetime-figure .event-label line { stroke: #c63f31 !important; }
-
-html.is-light .spacetime-figure .event-label text,
-body.is-light .spacetime-figure .event-label text,
-.is-light .spacetime-figure .event-label text { fill: #8a3226 !important; }
-
-html.is-light .spacetime-figure .frame-tag rect,
-body.is-light .spacetime-figure .frame-tag rect,
-.is-light .spacetime-figure .frame-tag rect { fill: var(--panel-2) !important; stroke: var(--paper-muted) !important; }
-
-html.is-light .spacetime-figure .frame-tag text,
-body.is-light .spacetime-figure .frame-tag text,
-.is-light .spacetime-figure .frame-tag text { fill: #1b7f87 !important; }
-
-html.is-light .spacetime-figure figcaption,
-body.is-light .spacetime-figure figcaption,
-.is-light .spacetime-figure figcaption { color: var(--paper-muted) !important; }
-
-html.is-light .spacetime-figure figcaption span,
-body.is-light .spacetime-figure figcaption span,
-.is-light .spacetime-figure figcaption span { color: #c63f31 !important; }
+.is-light .spacetime-figure .figure-bg {
+  fill: #f4f7f5 !important;
+}
+.is-light .spacetime-figure .figure-axis {
+  stroke: #445a63 !important;
+}
+.is-light .spacetime-figure .figure-axis-label {
+  fill: #445a63 !important;
+}
+.is-light .spacetime-figure .figure-cone {
+  stroke: #0f9a92 !important;
+}
+.is-light .spacetime-figure .figure-cone-label {
+  fill: #0a5c4e !important;
+}
+.is-light .spacetime-figure .figure-primed {
+  stroke: #a9770c !important;
+}
+.is-light .spacetime-figure .figure-primed-label {
+  fill: #7a5608 !important;
+}
+.is-light .spacetime-figure .figure-event-marker {
+  fill: #c73e2e !important;
+  stroke: #7a1f14 !important;
+}
+.is-light .spacetime-figure .figure-event-halo {
+  stroke: #c73e2e !important;
+}
+.is-light .spacetime-figure .figure-event-label {
+  fill: #7a2418 !important;
+}
