@@ -1,28 +1,42 @@
-/**
- * Static figure for the Lorentz-transformation section: unprimed axes (S),
- * tilted primed axes (S'), the invariant 45 degree light line, and one
- * marked event. Kept intentionally simpler than the live MinkowskiDiagram
- * instrument so the two are visually distinct (this one is not interactive).
- * Locally rendered so the figure never depends on an external image host.
- */
 export default function LorentzFigure() {
   return (
-    <svg viewBox="0 0 360 300" role="img" aria-label="Diagram of unprimed axes S, tilted primed axes S prime, the light line, and a marked event">
-      <rect width="360" height="300" className="figure-bg" fill="var(--bg, #0a1d2b)" />
-      <line x1="30" y1="255" x2="330" y2="255" className="figure-axis" stroke="var(--axis, #7fa2ab)" strokeWidth="1.4" />
-      <line x1="70" y1="280" x2="70" y2="24" className="figure-axis" stroke="var(--axis, #7fa2ab)" strokeWidth="1.4" />
-      <text x="335" y="259" fill="var(--axis, #9fc3ca)" fontSize="13">x</text>
-      <text x="60" y="20" fill="var(--axis, #9fc3ca)" fontSize="13">ct</text>
-      <line x1="70" y1="255" x2="300" y2="60" stroke="var(--cone, #8ce5e4)" strokeWidth="1.6" />
-      <text x="288" y="72" fill="var(--cone-label, #8ce5e4)" fontSize="12" fontStyle="italic">c</text>
-      <line x1="70" y1="255" x2="230" y2="35" stroke="var(--prime-axis, #e7e9d8)" strokeWidth="1.3" />
-      <text x="222" y="30" fill="var(--ct-label, #e7e9d8)" fontSize="12">ct′</text>
-      <line x1="20" y1="230" x2="300" y2="150" stroke="var(--prime-axis, #e7e9d8)" strokeWidth="1.3" />
-      <text x="292" y="146" fill="var(--x-label, #e7e9d8)" fontSize="12">x′</text>
-      <g transform="translate(190 128)">
-        <rect x="-6" y="-6" width="12" height="12" fill="var(--event-fill, #e6503e)" stroke="var(--event-stroke, #ffcfbf)" />
-        <text x="10" y="-10" fill="var(--event-text, #f8d1c9)" fontSize="11">event E</text>
+    <svg viewBox="0 0 520 480" role="img" aria-label="Tilted reference-frame axes, light cone, and an event on a spacetime diagram">
+      <rect width="520" height="480" className="figure-bg" fill="var(--bg, #0a1d2b)" />
+      <g stroke="var(--grid, #3c9ea4)" strokeWidth="0.6" opacity="0.28">
+        <line x1="40" y1="60" x2="40" y2="420" /><line x1="100" y1="60" x2="100" y2="420" />
+        <line x1="160" y1="60" x2="160" y2="420" /><line x1="220" y1="60" x2="220" y2="420" />
+        <line x1="280" y1="60" x2="280" y2="420" /><line x1="340" y1="60" x2="340" y2="420" />
+        <line x1="400" y1="60" x2="400" y2="420" /><line x1="460" y1="60" x2="460" y2="420" />
+        <line x1="20" y1="80" x2="490" y2="80" /><line x1="20" y1="140" x2="490" y2="140" />
+        <line x1="20" y1="200" x2="490" y2="200" /><line x1="20" y1="260" x2="490" y2="260" />
+        <line x1="20" y1="320" x2="490" y2="320" /><line x1="20" y1="380" x2="490" y2="380" />
       </g>
+      <g stroke="var(--axis, #e7e9d8)" strokeWidth="1.8">
+        <line x1="30" y1="380" x2="480" y2="380" />
+        <line x1="90" y1="440" x2="90" y2="50" />
+      </g>
+      <text x="486" y="374" fill="var(--axis, #e7e9d8)" fontFamily="IBM Plex Sans, sans-serif" fontSize="15" fontWeight="600">x</text>
+      <text x="78" y="44" fill="var(--axis, #e7e9d8)" fontFamily="IBM Plex Sans, sans-serif" fontSize="15" fontWeight="600">ct</text>
+      <g stroke="var(--cone, #8ce5e4)" strokeWidth="1.6">
+        <line x1="90" y1="380" x2="20" y2="70" />
+        <line x1="90" y1="380" x2="460" y2="70" />
+      </g>
+      <text x="34" y="64" fill="var(--cone-label, #0f6e56)" fontFamily="Newsreader, serif" fontStyle="italic" fontSize="16">c</text>
+      <text x="440" y="64" fill="var(--cone-label, #0f6e56)" fontFamily="Newsreader, serif" fontStyle="italic" fontSize="16">c</text>
+      <g stroke="var(--prime-axis, #e6bf6c)" strokeWidth="1.6">
+        <line x1="90" y1="380" x2="230" y2="90" />
+        <line x1="90" y1="380" x2="440" y2="300" />
+      </g>
+      <text x="236" y="86" fill="var(--ct-label, #7c4dbd)" fontFamily="IBM Plex Sans, sans-serif" fontSize="14" fontWeight="600">ct′</text>
+      <text x="444" y="302" fill="var(--x-label, #e08ce0)" fontFamily="IBM Plex Sans, sans-serif" fontSize="14" fontWeight="600">x′</text>
+      <g>
+        <rect x="304" y="150" width="14" height="14" fill="var(--event-fill, #e6503e)" stroke="var(--event-stroke, #ffcfbf)" strokeWidth="1.1" />
+        <circle cx="311" cy="157" r="20" fill="none" stroke="var(--event-fill, #e6503e)" strokeWidth="1.2" opacity="0.55" />
+      </g>
+      <line x1="322" y1="148" x2="360" y2="126" stroke="var(--event-fill, #e6503e)" strokeWidth="1" />
+      <text x="365" y="122" fill="var(--event-text, #f8d1c9)" fontFamily="IBM Plex Sans, sans-serif" fontSize="12" fontWeight="600" letterSpacing="0.05em">EVENT E</text>
+      <text x="365" y="138" fill="var(--event-text, #f8d1c9)" fontFamily="IBM Plex Sans, sans-serif" fontSize="12">(x, t) and (x′, t′)</text>
+      <text x="30" y="460" fill="var(--caption, #7e9fa7)" fontFamily="IBM Plex Sans, sans-serif" fontSize="12">Frame S′ (gold) is tilted relative to frame S (white) by an angle set by v/c.</text>
     </svg>
   );
 }
