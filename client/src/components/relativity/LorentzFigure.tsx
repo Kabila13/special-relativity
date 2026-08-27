@@ -1,7 +1,7 @@
 export default function LorentzFigure() {
   return (
     <svg viewBox="0 0 520 480" role="img" aria-label="Tilted reference-frame axes, light cone, and an event on a spacetime diagram">
-      <rect width="520" height="480" className="figure-bg" fill="var(--bg, #0a1d2b)" />
+      <rect width="520" height="480" className="figure-bg" fill="var(--bg, #ffffff)" />
       <g stroke="var(--grid, #3c9ea4)" strokeWidth="0.6" opacity="0.28">
         <line x1="40" y1="60" x2="40" y2="420" /><line x1="100" y1="60" x2="100" y2="420" />
         <line x1="160" y1="60" x2="160" y2="420" /><line x1="220" y1="60" x2="220" y2="420" />
