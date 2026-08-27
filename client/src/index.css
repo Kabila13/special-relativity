@@ -246,4 +246,9 @@
 .spacetime-figure figcaption span {
   font-weight: 800;
 }
-
+.is-light .hero-copy-relativity h1 {
+  color: var(--paper-ink);
+}
+.is-light .hero-copy-relativity h1 em {
+  color: var(--cyan);
+}
