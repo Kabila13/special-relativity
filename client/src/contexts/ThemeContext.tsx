@@ -29,18 +29,19 @@ export function ThemeProvider({
     return defaultTheme;
   });
 
-  useEffect(() => {
-    const root = document.documentElement;
-    if (theme === "dark") {
-      root.classList.add("dark");
-    } else {
-      root.classList.remove("dark");
-    }
-
-    if (switchable) {
-      localStorage.setItem("theme", theme);
-    }
-  }, [theme, switchable]);
+ useEffect(() => {
+  const root = document.documentElement;
+  if (theme === "dark") {
+    root.classList.add("dark");
+    root.classList.remove("is-light");
+  } else {
+    root.classList.remove("dark");
+    root.classList.add("is-light");
+  }
+  if (switchable) {
+    localStorage.setItem("theme", theme);
+  }
+}, [theme, switchable]);
 
   const toggleTheme = switchable
     ? () => {
