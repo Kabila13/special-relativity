@@ -236,7 +236,9 @@
   --event-text: #7a2418;
   --caption: #3f6067;
 }
-
+.is-light .spacetime-figure {
+  background: #dcecf3;
+}
 /* Bold the Fig. 1 caption and its "FIG. 1" label */
 .spacetime-figure figcaption {
   font-weight: 700;
