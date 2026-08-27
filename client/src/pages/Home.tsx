@@ -96,6 +96,7 @@ export default function Home() {
     const properLength = 120;
     const xPrime = gamma * (eventX - beta * eventTime);
     const tPrime = gamma * (eventTime - beta * eventX);
+    const intervalSquared = eventTime * eventTime - eventX * eventX;
     return {
       gamma,
       xPrime,
@@ -103,6 +104,8 @@ export default function Home() {
       dilatedTime: gamma * properTime,
       contractedLength: properLength / gamma,
       intervalKind: describeInterval(eventX, eventTime),
+      intervalSquared,
+      intervalMagnitude: Math.sqrt(Math.abs(intervalSquared)),
     };
   }, [beta, eventX, eventTime]);
 
@@ -417,6 +420,11 @@ export default function Home() {
                 <div className="result-card"><span>TIME INTERVAL</span><strong>{model.dilatedTime.toFixed(2)} μs</strong><p>from a 10.00 μs proper time interval</p></div>
                 <div className="result-card"><span>LENGTH IN S</span><strong>{model.contractedLength.toFixed(1)} m</strong><p>from a 120.0 m proper length</p></div>
                 <div className={`interval-card ${model.intervalKind.tone}`}><span>EVENT SEPARATION</span><b>{model.intervalKind.label}</b><p>{model.intervalKind.detail}</p></div>
+                <div className="result-card interval-value">
+                  <span>INVARIANT INTERVAL</span>
+                  <strong>{model.intervalSquared >= 0 ? "+" : "−"}{model.intervalMagnitude.toFixed(2)} μs²</strong>
+                  <p><InlineMath math="(c\Delta t)^2-(\Delta x)^2" /> — the same in every inertial frame</p>
+                </div>
               </aside>
             </div>
           </section>
@@ -483,3 +491,4 @@ export default function Home() {
     </div>
   );
 }
+
